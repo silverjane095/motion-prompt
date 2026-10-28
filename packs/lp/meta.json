@@ -4,26 +4,30 @@
   "title": {
     "ja": "LP・Webサイトの演出",
     "en": "Landing page & web effects",
-    "zh-Hant": "Landing Page 與網站效果"
+    "zh-Hant": "Landing Page 與網站效果",
+    "ko": "랜딩 페이지·웹사이트 연출"
   },
   "categories": [
     {
       "slug": "scroll",
       "ja": "スクロールで起きる演出",
       "en": "Scroll effects",
-      "zh-Hant": "捲動時的效果"
+      "zh-Hant": "捲動時的效果",
+      "ko": "스크롤 연출"
     },
     {
       "slug": "hover-click",
       "ja": "マウス・クリックへの反応",
       "en": "Hover & click interactions",
-      "zh-Hant": "滑鼠與點擊的互動"
+      "zh-Hant": "滑鼠與點擊的互動",
+      "ko": "마우스 올림·클릭 반응"
     },
     {
       "slug": "loading-loops",
       "ja": "読み込み・移動・動き続ける演出",
       "en": "Loading, navigation & ambient loops",
-      "zh-Hant": "載入、轉場與持續動態"
+      "zh-Hant": "載入、轉場與持續動態",
+      "ko": "로딩·이동·반복 연출"
     }
   ],
   "elements": [
@@ -34,21 +38,25 @@
       "name": {
         "ja": "パララックススクロール",
         "en": "Parallax scrolling",
-        "zh-Hant": "Parallax 視差滾動"
+        "zh-Hant": "Parallax 視差滾動",
+        "ko": "패럴랙스"
       },
       "meaning": {
         "ja": "スクロールで奥の層ほどゆっくり動く",
         "en": "On scroll, background layers move slower than the content",
-        "zh-Hant": "捲動時，越後面的圖層移動得越慢"
+        "zh-Hant": "捲動時，越後面的圖層移動得越慢",
+        "ko": "스크롤하면 뒤쪽 배경 레이어가 콘텐츠보다 느리게 움직임"
       },
       "ask": {
         "ja": "ファーストビューの背景をパララックススクロールにして。背景はスクロール量の0.3倍で動かして。",
         "en": "Make the hero background a parallax scroll: move it at 0.3× the scroll distance.",
-        "zh-Hant": "Hero 區塊的背景做成 Parallax 視差滾動，背景的移動量是捲動距離的 0.3 倍。"
+        "zh-Hant": "Hero 區塊的背景做成 Parallax 視差滾動，背景的移動量是捲動距離的 0.3 倍。",
+        "ko": "히어로 배경에 패럴랙스 스크롤을 적용해 주세요. 배경은 스크롤 거리의 0.3배만큼 움직이게 해 주세요."
       },
       "summary": {
         "ja": "ページを下へスクロールすると、見出しはふつうに上がり、空と太陽・遠い山・近い山はそれより遅く動く。",
-        "en": "As the page scrolls down, the headline moves up normally while the sky and sun, far hills and near hills move more slowly."
+        "en": "As the page scrolls down, the headline moves up normally while the sky and sun, far hills and near hills move more slowly.",
+        "ko": "페이지를 아래로 스크롤하면 제목은 평소처럼 올라가고, 하늘과 해, 먼 언덕, 가까운 언덕은 그보다 느리게 움직입니다."
       },
       "spec": {
         "ja": [
@@ -87,21 +95,25 @@
       "name": {
         "ja": "スクロールでフェードイン",
         "en": "Fade-in on scroll",
-        "zh-Hant": "捲動淡入"
+        "zh-Hant": "捲動淡入",
+        "ko": "스크롤 페이드인"
       },
       "meaning": {
         "ja": "画面に入った要素がふわっと現れる",
         "en": "Elements fade in as they scroll into view",
-        "zh-Hant": "進入畫面的元素會柔和地淡入"
+        "zh-Hant": "進入畫面的元素會柔和地淡入",
+        "ko": "화면에 들어온 요소가 서서히 나타남"
       },
       "ask": {
         "ja": "各セクションの見出しとカードを、スクロールでフェードインさせて。下から30px、0.6秒で。",
         "en": "Fade in each section's heading and cards on scroll: up from 30 px below, over 0.6 s.",
-        "zh-Hant": "各區塊的標題和卡片加上捲動淡入，從下方 30 px 處往上浮現，時間 0.6 秒。"
+        "zh-Hant": "各區塊的標題和卡片加上捲動淡入，從下方 30 px 處往上浮現，時間 0.6 秒。",
+        "ko": "각 섹션의 제목과 카드에 스크롤 페이드인을 적용해 주세요. 30px 아래에서 올라오며 0.6초 동안 나타나게 해 주세요."
       },
       "summary": {
         "ja": "スクロールで画面に入った見出し・カード・本文が、それぞれ下から浮かび上がりながら現れる。",
-        "en": "As the page scrolls, the heading, the cards and the body text each rise into place and fade in when they enter the view."
+        "en": "As the page scrolls, the heading, the cards and the body text each rise into place and fade in when they enter the view.",
+        "ko": "스크롤해서 화면에 들어온 제목, 카드, 본문이 각각 아래에서 떠오르며 서서히 나타납니다."
       },
       "spec": {
         "ja": [
@@ -140,21 +152,25 @@
       "name": {
         "ja": "追従ヘッダー",
         "en": "Sticky header",
-        "zh-Hant": "Sticky Header"
+        "zh-Hant": "Sticky Header",
+        "ko": "스티키 헤더"
       },
       "meaning": {
         "ja": "スクロールしてもヘッダーが上に残る",
         "en": "The header stays at the top while the page scrolls",
-        "zh-Hant": "捲動頁面時，Header 固定停在最上方"
+        "zh-Hant": "捲動頁面時，Header 固定停在最上方",
+        "ko": "스크롤해도 헤더가 상단에 고정됨"
       },
       "ask": {
         "ja": "ヘッダーを追従ヘッダーにして。上に張り付いたら下に薄い影を付けて。",
         "en": "Make the header a sticky header, with a soft shadow once it sticks to the top.",
-        "zh-Hant": "把 Header 做成 Sticky Header，黏到頂端之後在下緣加一層淡淡的陰影。"
+        "zh-Hant": "把 Header 做成 Sticky Header，黏到頂端之後在下緣加一層淡淡的陰影。",
+        "ko": "헤더를 스티키 헤더로 만들어 주세요. 상단에 붙으면 아래에 옅은 그림자를 넣어 주세요."
       },
       "summary": {
         "ja": "上のお知らせの帯はスクロールで消えるが、その下のヘッダーは画面の上端に来たところで止まり、本文がその下を通っていく。",
-        "en": "The announcement strip scrolls away, but the header below it stops at the top edge and the content scrolls underneath."
+        "en": "The announcement strip scrolls away, but the header below it stops at the top edge and the content scrolls underneath.",
+        "ko": "위쪽 공지 띠는 스크롤하면 사라지지만, 그 아래 헤더는 화면 상단에 닿는 순간 멈추고 본문이 그 밑으로 지나갑니다."
       },
       "spec": {
         "ja": [
@@ -193,21 +209,25 @@
       "name": {
         "ja": "ピン留め",
         "en": "Pinning",
-        "zh-Hant": "Pin（捲動固定）"
+        "zh-Hant": "Pin（捲動固定）",
+        "ko": "스크롤 고정(핀)"
       },
       "meaning": {
         "ja": "セクションを止めて中身だけ進める",
         "en": "A section stays fixed while scrolling advances its content",
-        "zh-Hant": "區塊固定不動，只讓內容隨捲動推進"
+        "zh-Hant": "區塊固定不動，只讓內容隨捲動推進",
+        "ko": "섹션은 멈춰 있고 스크롤에 따라 안의 내용만 넘어감"
       },
       "ask": {
         "ja": "「3ステップ」のセクションをピン留めして、スクロールで1ステップずつ写真と番号を切り替えて。",
         "en": "Pin the three-step section and switch the photo and number one step at a time as the user scrolls.",
-        "zh-Hant": "把「三步驟」區塊 Pin 住，隨著捲動，一次切換一個步驟的照片和編號。"
+        "zh-Hant": "把「三步驟」區塊 Pin 住，隨著捲動，一次切換一個步驟的照片和編號。",
+        "ko": "3단계 섹션을 고정(핀)해 주시고, 스크롤할 때마다 사진과 번호가 한 단계씩 바뀌게 해 주세요."
       },
       "summary": {
         "ja": "濃紺のセクションが画面いっぱいに来たところで止まり、スクロールし続けると番号と写真がステップ1→2→3と切り替わり、終わると再び流れていく。",
-        "en": "A navy section stops when it fills the view; further scrolling steps the number and photo through 1→2→3, then the section scrolls on."
+        "en": "A navy section stops when it fills the view; further scrolling steps the number and photo through 1→2→3, then the section scrolls on.",
+        "ko": "네이비 섹션이 화면을 가득 채우면 멈추고, 계속 스크롤하면 번호와 사진이 1, 2, 3단계 순서로 바뀝니다. 끝나면 섹션이 다시 스크롤됩니다."
       },
       "spec": {
         "ja": [
@@ -246,21 +266,25 @@
       "name": {
         "ja": "横スクロール",
         "en": "Horizontal scroll",
-        "zh-Hant": "橫向捲動"
+        "zh-Hant": "橫向捲動",
+        "ko": "가로 스크롤"
       },
       "meaning": {
         "ja": "縦のスクロールで中身が横に流れる",
         "en": "Scrolling down moves the content sideways",
-        "zh-Hant": "往下捲動時，內容改為橫向移動"
+        "zh-Hant": "往下捲動時，內容改為橫向移動",
+        "ko": "아래로 스크롤하면 내용이 옆으로 흘러감"
       },
       "ask": {
         "ja": "実績のセクションを横スクロールにして。縦にスクロールした分だけ、カードを左へ流して。",
         "en": "Turn the work section into a horizontal scroll: move the cards left as far as the user scrolls down.",
-        "zh-Hant": "把作品區塊做成橫向捲動：區塊固定在畫面上，使用者往下捲多少，卡片就往左移多少。"
+        "zh-Hant": "把作品區塊做成橫向捲動：區塊固定在畫面上，使用者往下捲多少，卡片就往左移多少。",
+        "ko": "작업 사례 섹션을 가로 스크롤로 바꿔 주세요. 아래로 스크롤한 만큼 카드가 왼쪽으로 움직이게 해 주세요."
       },
       "summary": {
         "ja": "縦にスクロールすると、セクションが止まったまま、番号付きの作品カード4枚が左へ流れていく。",
-        "en": "As the page scrolls down, the section holds still and four numbered work cards travel to the left."
+        "en": "As the page scrolls down, the section holds still and four numbered work cards travel to the left.",
+        "ko": "아래로 스크롤하면 섹션은 멈춘 채로 번호가 붙은 작업 카드 4장이 왼쪽으로 흘러갑니다."
       },
       "spec": {
         "ja": [
@@ -299,21 +323,25 @@
       "name": {
         "ja": "スクロールスナップ",
         "en": "Scroll snap",
-        "zh-Hant": "Scroll Snap"
+        "zh-Hant": "Scroll Snap",
+        "ko": "스크롤 스냅"
       },
       "meaning": {
         "ja": "スクロールが区切りの位置にピタッと止まる",
         "en": "Scrolling settles exactly on the next section",
-        "zh-Hant": "捲動後會剛好停在區塊的分界位置"
+        "zh-Hant": "捲動後會剛好停在區塊的分界位置",
+        "ko": "스크롤이 다음 섹션 위치에 딱 맞춰 멈춤"
       },
       "ask": {
         "ja": "セクションごとにスクロールスナップさせて。少し回しただけで次のセクションの頭に合わせて。",
         "en": "Add scroll snap per section, so a small scroll lands on the top of the next section.",
-        "zh-Hant": "每個區塊都加上 Scroll Snap，只要稍微捲一下，就自動對齊到下一個區塊的頂端。"
+        "zh-Hant": "每個區塊都加上 Scroll Snap，只要稍微捲一下，就自動對齊到下一個區塊的頂端。",
+        "ko": "섹션마다 스크롤 스냅을 넣어 주세요. 조금만 스크롤해도 다음 섹션의 시작 부분에 맞춰지게 해 주세요."
       },
       "summary": {
         "ja": "少しだけスクロールすると、残りは自動で送られて、次のセクションの頭がちょうど画面の上にそろう。",
-        "en": "After a small scroll, the page carries itself the rest of the way until the next section's top lines up with the top of the view."
+        "en": "After a small scroll, the page carries itself the rest of the way until the next section's top lines up with the top of the view.",
+        "ko": "조금만 스크롤하면 나머지는 페이지가 알아서 움직여, 다음 섹션의 맨 위가 화면 상단에 딱 맞춰집니다."
       },
       "spec": {
         "ja": [
@@ -350,21 +378,25 @@
       "name": {
         "ja": "スクロールプログレスバー",
         "en": "Scroll progress bar",
-        "zh-Hant": "閱讀進度條"
+        "zh-Hant": "閱讀進度條",
+        "ko": "스크롤 진행 바"
       },
       "meaning": {
         "ja": "読み進めた割合を上の線で見せる",
         "en": "A bar at the top shows how far you have read",
-        "zh-Hant": "用最上方的線條顯示閱讀進度"
+        "zh-Hant": "用最上方的線條顯示閱讀進度",
+        "ko": "상단 막대로 얼마나 읽었는지 보여 줌"
       },
       "ask": {
         "ja": "記事ページの上にスクロールプログレスバーを付けて。太さ4px、色はブランドの朱色で。",
         "en": "Add a scroll progress bar at the top of the article page, 4 px thick, in the brand orange.",
-        "zh-Hant": "在文章頁最上方加上閱讀進度條，粗 4 px，顏色用品牌的橘紅色。"
+        "zh-Hant": "在文章頁最上方加上閱讀進度條，粗 4 px，顏色用品牌的橘紅色。",
+        "ko": "글 페이지 상단에 스크롤 진행 바를 넣어 주세요. 두께는 4px, 색은 브랜드 주황색으로 해 주세요."
       },
       "summary": {
         "ja": "記事を少しずつ読み進めるごとに、画面の上端の線が左から伸び、最後まで来ると端まで届く。",
-        "en": "As the article is read a bit at a time, the line along the top grows from the left and reaches the far end at the bottom of the page."
+        "en": "As the article is read a bit at a time, the line along the top grows from the left and reaches the far end at the bottom of the page.",
+        "ko": "글을 조금씩 읽어 내려갈 때마다 상단의 선이 왼쪽부터 늘어나고, 페이지 끝에 이르면 오른쪽 끝까지 닿습니다."
       },
       "spec": {
         "ja": [
@@ -400,21 +432,25 @@
       "name": {
         "ja": "マーカーアニメーション",
         "en": "Highlighter animation",
-        "zh-Hant": "螢光筆動畫"
+        "zh-Hant": "螢光筆動畫",
+        "ko": "형광펜 애니메이션"
       },
       "meaning": {
         "ja": "大事な言葉に蛍光ペンの線が引かれる",
         "en": "A highlighter stroke is drawn under key words",
-        "zh-Hant": "重點文字的下半部被螢光筆塗上顏色"
+        "zh-Hant": "重點文字的下半部被螢光筆塗上顏色",
+        "ko": "중요한 단어 아래에 형광펜 줄이 그어짐"
       },
       "ask": {
         "ja": "強調したい言葉に、スクロールで画面に入ったらマーカーアニメーションで黄色の線を引いて。0.8秒で左から。",
         "en": "When the key phrase scrolls into view, draw a yellow highlighter animation under it, left to right in 0.8 s.",
-        "zh-Hant": "重點文字捲動進入畫面時，用螢光筆動畫由左到右塗上黃色底色，蓋住文字下半部，時間 0.8 秒。"
+        "zh-Hant": "重點文字捲動進入畫面時，用螢光筆動畫由左到右塗上黃色底色，蓋住文字下半部，時間 0.8 秒。",
+        "ko": "강조할 문구가 스크롤로 화면에 들어오면, 형광펜 애니메이션으로 그 아래에 노란 줄을 왼쪽에서 오른쪽으로 0.8초 동안 그어 주세요."
       },
       "summary": {
         "ja": "スクロールで文章が画面に入ると、大事な言葉の下半分に黄色い蛍光ペンの線が左から引かれる。",
-        "en": "As the copy scrolls into view, a yellow highlighter stroke is drawn left to right across the lower half of the key words."
+        "en": "As the copy scrolls into view, a yellow highlighter stroke is drawn left to right across the lower half of the key words.",
+        "ko": "문장이 스크롤로 화면에 들어오면, 중요한 단어의 아래쪽 절반에 노란 형광펜 줄이 왼쪽부터 그어집니다."
       },
       "spec": {
         "ja": [
@@ -453,21 +489,25 @@
       "name": {
         "ja": "ホバーで浮き上がる",
         "en": "Hover lift",
-        "zh-Hant": "Hover 浮起效果"
+        "zh-Hant": "Hover 浮起效果",
+        "ko": "호버 리프트"
       },
       "meaning": {
         "ja": "カーソルを乗せると影を付けて浮く",
         "en": "On hover, the element rises with a deeper shadow",
-        "zh-Hant": "滑鼠移上去時，元素加深陰影並浮起"
+        "zh-Hant": "滑鼠移上去時，元素加深陰影並浮起",
+        "ko": "마우스를 올리면 그림자가 짙어지며 떠오름"
       },
       "ask": {
         "ja": "カードにカーソルを乗せたら、ホバーで浮き上がるようにして。上に8px、影を濃く、0.3秒で。",
         "en": "Give the cards a hover lift: up 8 px with a deeper shadow, over 0.3 s.",
-        "zh-Hant": "卡片加上 Hover 浮起效果：滑鼠移上去時往上浮 8 px，陰影加深，時間 0.3 秒。"
+        "zh-Hant": "卡片加上 Hover 浮起效果：滑鼠移上去時往上浮 8 px，陰影加深，時間 0.3 秒。",
+        "ko": "카드에 호버 리프트를 넣어 주세요. 0.3초 동안 8px 위로 올라가고 그림자가 짙어지게 해 주세요."
       },
       "summary": {
         "ja": "カーソルが乗ったカードだけが少し上に持ち上がり、下の影が広がる。カーソルが離れると元に戻る。",
-        "en": "Only the card under the cursor lifts slightly and its shadow spreads; it settles back when the cursor leaves."
+        "en": "Only the card under the cursor lifts slightly and its shadow spreads; it settles back when the cursor leaves.",
+        "ko": "커서가 올라간 카드만 살짝 떠오르고 그림자가 퍼집니다. 커서가 벗어나면 제자리로 돌아갑니다."
       },
       "spec": {
         "ja": [
@@ -504,21 +544,25 @@
       "name": {
         "ja": "ホバーで画像ズーム",
         "en": "Image zoom on hover",
-        "zh-Hant": "Hover 圖片放大"
+        "zh-Hant": "Hover 圖片放大",
+        "ko": "호버 이미지 줌"
       },
       "meaning": {
         "ja": "枠はそのままで写真だけ拡大する",
         "en": "The photo enlarges inside a fixed frame",
-        "zh-Hant": "外框不變，只有裡面的照片放大"
+        "zh-Hant": "外框不變，只有裡面的照片放大",
+        "ko": "틀은 그대로 두고 사진만 확대됨"
       },
       "ask": {
         "ja": "実績の写真にホバーで画像ズームを付けて。枠は固定で、中身を1.1倍まで0.5秒で。",
         "en": "Add an image zoom on hover to the work photos: fixed frame, content to 1.1× over 0.5 s.",
-        "zh-Hant": "作品照片加上 Hover 圖片放大，外框固定，裡面的圖在 0.5 秒內放大到 1.1 倍。"
+        "zh-Hant": "作品照片加上 Hover 圖片放大，外框固定，裡面的圖在 0.5 秒內放大到 1.1 倍。",
+        "ko": "작업 사례 사진에 호버 이미지 줌을 넣어 주세요. 틀은 고정하고 안의 사진만 0.5초 동안 1.1배까지 커지게 해 주세요."
       },
       "summary": {
         "ja": "カーソルが乗った写真だけが、枠の大きさは変えずに中身がゆっくり拡大し、離れると戻る。",
-        "en": "The photo under the cursor slowly enlarges while its frame stays the same size, and shrinks back when the cursor leaves."
+        "en": "The photo under the cursor slowly enlarges while its frame stays the same size, and shrinks back when the cursor leaves.",
+        "ko": "커서가 올라간 사진만 틀 크기는 그대로인 채로 천천히 확대되고, 커서가 벗어나면 원래대로 줄어듭니다."
       },
       "spec": {
         "ja": [
@@ -553,21 +597,25 @@
       "name": {
         "ja": "マウスストーカー",
         "en": "Cursor follower",
-        "zh-Hant": "滑鼠跟隨效果"
+        "zh-Hant": "滑鼠跟隨效果",
+        "ko": "커서 팔로워"
       },
       "meaning": {
         "ja": "カーソルを丸が遅れて追いかける",
         "en": "A shape trails the mouse pointer with a delay",
-        "zh-Hant": "一個圓形延遲跟隨滑鼠游標移動"
+        "zh-Hant": "一個圓形延遲跟隨滑鼠游標移動",
+        "ko": "도형이 마우스 포인터를 한 박자 늦게 따라감"
       },
       "ask": {
         "ja": "サイト全体にマウスストーカーを付けて。直径30pxの朱色の丸が、少し遅れてカーソルを追うように。",
         "en": "Add a cursor follower across the site: a 30 px orange circle that trails the pointer slightly.",
-        "zh-Hant": "全站加上滑鼠跟隨效果，一個直徑 30 px 的橘紅色圓形，稍微延遲地跟著游標移動。"
+        "zh-Hant": "全站加上滑鼠跟隨效果，一個直徑 30 px 的橘紅色圓形，稍微延遲地跟著游標移動。",
+        "ko": "사이트 전체에 커서 팔로워를 넣어 주세요. 지름 30px의 주황색 원이 포인터를 살짝 늦게 따라가게 해 주세요."
       },
       "summary": {
         "ja": "カーソルがページの上を動き回ると、朱色の丸が少し遅れてそのあとを追いかける。",
-        "en": "As the cursor moves around the page, an orange circle follows it a little behind."
+        "en": "As the cursor moves around the page, an orange circle follows it a little behind.",
+        "ko": "커서가 페이지 위를 돌아다니면 주황색 원이 조금 늦게 그 뒤를 따라갑니다."
       },
       "spec": {
         "ja": [
@@ -604,21 +652,25 @@
       "name": {
         "ja": "マグネティックボタン",
         "en": "Magnetic button",
-        "zh-Hant": "磁吸按鈕"
+        "zh-Hant": "磁吸按鈕",
+        "ko": "마그네틱 버튼"
       },
       "meaning": {
         "ja": "近づいたカーソルにボタンが吸い寄せられる",
         "en": "The button is pulled toward a nearby cursor",
-        "zh-Hant": "游標靠近時，按鈕會被吸過去"
+        "zh-Hant": "游標靠近時，按鈕會被吸過去",
+        "ko": "커서가 가까이 오면 버튼이 끌려감"
       },
       "ask": {
         "ja": "問い合わせボタンをマグネティックボタンにして。カーソルとの差の0.3倍だけ寄って、離れたらぷるんと戻して。",
         "en": "Make the contact button a magnetic button: move 0.3× toward the cursor, and spring back when it leaves.",
-        "zh-Hant": "把聯絡我們按鈕做成磁吸按鈕，往游標方向移動兩者距離的 0.3 倍，游標離開後要彈性地回到原位。"
+        "zh-Hant": "把聯絡我們按鈕做成磁吸按鈕，往游標方向移動兩者距離的 0.3 倍，游標離開後要彈性地回到原位。",
+        "ko": "문의 버튼을 마그네틱 버튼으로 만들어 주세요. 커서 쪽으로 0.3배만큼 끌려가고, 커서가 멀어지면 탄력 있게 돌아오게 해 주세요."
       },
       "summary": {
         "ja": "カーソルが近づくとボタンがカーソルの方へ引き寄せられてついていき、離れるとぷるんと揺れて元の位置に戻る。",
-        "en": "As the cursor comes near, the button is drawn toward it and follows; when the cursor leaves, the button wobbles back to its place."
+        "en": "As the cursor comes near, the button is drawn toward it and follows; when the cursor leaves, the button wobbles back to its place.",
+        "ko": "커서가 다가오면 버튼이 커서 쪽으로 끌려가 따라오고, 커서가 멀어지면 출렁이며 제자리로 돌아갑니다."
       },
       "spec": {
         "ja": [
@@ -655,21 +707,25 @@
       "name": {
         "ja": "リップルエフェクト",
         "en": "Ripple effect",
-        "zh-Hant": "漣漪效果"
+        "zh-Hant": "漣漪效果",
+        "ko": "리플 효과"
       },
       "meaning": {
         "ja": "押した場所から波紋が広がる",
         "en": "A ripple spreads from the point that was pressed",
-        "zh-Hant": "從點擊的位置向外擴散出波紋"
+        "zh-Hant": "從點擊的位置向外擴散出波紋",
+        "ko": "누른 자리에서 물결이 퍼져 나감"
       },
       "ask": {
         "ja": "送信ボタンにリップルエフェクトを付けて。押した位置から白い円が0.6秒で広がって消えるように。",
         "en": "Add a ripple effect to the submit button: a white circle spreads from the click point and fades in 0.6 s.",
-        "zh-Hant": "送出按鈕加上漣漪效果，從點擊位置擴散出白色圓形，0.6 秒內擴散並淡出。"
+        "zh-Hant": "送出按鈕加上漣漪效果，從點擊位置擴散出白色圓形，0.6 秒內擴散並淡出。",
+        "ko": "제출 버튼에 리플 효과를 넣어 주세요. 클릭한 지점에서 흰 원이 퍼지고 0.6초 동안 사라지게 해 주세요."
       },
       "summary": {
         "ja": "ボタンを押すたびに、押した場所を中心に白い円が広がってボタンの中を満たし、薄れて消える。",
-        "en": "Each click sends a white circle out from the click point to fill the button, then it fades away."
+        "en": "Each click sends a white circle out from the click point to fill the button, then it fades away.",
+        "ko": "버튼을 누를 때마다 누른 지점에서 흰 원이 퍼져 버튼 안을 채운 뒤 서서히 사라집니다."
       },
       "spec": {
         "ja": [
@@ -706,21 +762,25 @@
       "name": {
         "ja": "下線アニメーション",
         "en": "Underline animation",
-        "zh-Hant": "底線動畫"
+        "zh-Hant": "底線動畫",
+        "ko": "밑줄 애니메이션"
       },
       "meaning": {
         "ja": "乗せたリンクの下線が左から伸びる",
         "en": "A link's underline grows from the left on hover",
-        "zh-Hant": "滑鼠移到連結上時，底線從左邊延伸出來"
+        "zh-Hant": "滑鼠移到連結上時，底線從左邊延伸出來",
+        "ko": "마우스를 올린 링크의 밑줄이 왼쪽부터 늘어남"
       },
       "ask": {
         "ja": "メニューのリンクに下線アニメーションを付けて。乗せたら左から0.3秒で伸び、離れたら右へ抜けるように。",
         "en": "Add an underline animation to the menu links: grow from the left in 0.3 s on hover, and exit to the right on leave.",
-        "zh-Hant": "選單連結加上底線動畫，滑鼠移上去時底線在 0.3 秒內從左邊延伸出來，移開時往右邊收掉。"
+        "zh-Hant": "選單連結加上底線動畫，滑鼠移上去時底線在 0.3 秒內從左邊延伸出來，移開時往右邊收掉。",
+        "ko": "메뉴 링크에 밑줄 애니메이션을 넣어 주세요. 마우스를 올리면 0.3초 동안 왼쪽부터 늘어나고, 벗어나면 오른쪽으로 빠져나가게 해 주세요."
       },
       "summary": {
         "ja": "カーソルが乗ったリンクの下に、朱色の線が左から伸び、離れると線は右へ縮んで抜けていく。",
-        "en": "Under the link the cursor is on, an orange line grows from the left; when the cursor leaves, the line shrinks away to the right."
+        "en": "Under the link the cursor is on, an orange line grows from the left; when the cursor leaves, the line shrinks away to the right.",
+        "ko": "커서가 올라간 링크 아래에 주황색 선이 왼쪽부터 늘어나고, 커서가 벗어나면 선이 오른쪽으로 줄어들며 사라집니다."
       },
       "spec": {
         "ja": [
@@ -757,21 +817,25 @@
       "name": {
         "ja": "ビフォーアフタースライダー",
         "en": "Before/after slider",
-        "zh-Hant": "Before/After 對比滑桿"
+        "zh-Hant": "Before/After 對比滑桿",
+        "ko": "비포 애프터 슬라이더"
       },
       "meaning": {
         "ja": "境目をドラッグして前と後を見比べる",
         "en": "Drag a divider to compare before and after",
-        "zh-Hant": "拖曳分隔線，比較前後的差異"
+        "zh-Hant": "拖曳分隔線，比較前後的差異",
+        "ko": "경계선을 드래그해 전후를 비교함"
       },
       "ask": {
         "ja": "施工例の写真をビフォーアフタースライダーにして。真ん中の線をドラッグすると、左が施工前、右が施工後で見比べられるように。",
         "en": "Show the project photos as a before/after slider: drag the middle line to compare before on the left and after on the right.",
-        "zh-Hant": "把施工案例照片做成 Before/After 對比滑桿，拖曳中間的線，左邊顯示施工前、右邊顯示施工後，方便比較。"
+        "zh-Hant": "把施工案例照片做成 Before/After 對比滑桿，拖曳中間的線，左邊顯示施工前、右邊顯示施工後，方便比較。",
+        "ko": "시공 사진을 비포 애프터 슬라이더로 보여 주세요. 가운데 선을 드래그하면 왼쪽의 시공 전과 오른쪽의 시공 후를 비교할 수 있게 해 주세요."
       },
       "summary": {
         "ja": "写真の真ん中の線をドラッグして左右に動かすと、左側は色のない「前」、右側は色のある「後」の範囲が入れ替わる。",
-        "en": "Dragging the line in the middle of the photo left and right changes how much of the grey \"before\" (left) and the coloured \"after\" (right) is shown."
+        "en": "Dragging the line in the middle of the photo left and right changes how much of the grey \"before\" (left) and the coloured \"after\" (right) is shown.",
+        "ko": "사진 가운데 선을 좌우로 드래그하면 왼쪽의 회색 \"전\"과 오른쪽의 컬러 \"후\"가 보이는 범위가 바뀝니다."
       },
       "spec": {
         "ja": [
@@ -808,21 +872,25 @@
       "name": {
         "ja": "離脱防止ポップアップ",
         "en": "Exit-intent popup",
-        "zh-Hant": "Exit-intent 彈出視窗"
+        "zh-Hant": "Exit-intent 彈出視窗",
+        "ko": "이탈 방지 팝업"
       },
       "meaning": {
         "ja": "ページを離れそうな時に出す引き止めの小窓",
         "en": "A popup shown when the visitor is about to leave",
-        "zh-Hant": "訪客快離開頁面時跳出的慰留視窗"
+        "zh-Hant": "訪客快離開頁面時跳出的慰留視窗",
+        "ko": "방문자가 페이지를 떠나려 할 때 뜨는 팝업"
       },
       "ask": {
         "ja": "LPに離脱防止ポップアップを付けて。カーソルが画面の上へ出たら、クーポンの小窓を1回だけ出して。",
         "en": "Add an exit-intent popup to the landing page: when the cursor leaves through the top, show a coupon popup once.",
-        "zh-Hant": "Landing Page 加上 Exit-intent 彈出視窗，游標移出畫面上緣時，跳出優惠券視窗，而且只出現一次。"
+        "zh-Hant": "Landing Page 加上 Exit-intent 彈出視窗，游標移出畫面上緣時，跳出優惠券視窗，而且只出現一次。",
+        "ko": "랜딩 페이지에 이탈 방지 팝업을 넣어 주세요. 커서가 화면 위쪽으로 나가면 쿠폰 팝업을 한 번만 띄워 주세요."
       },
       "summary": {
         "ja": "カーソルがページの上の方（タブや閉じるボタンのある所）へ出ていくと、背景が暗くなって「ちょっと待って！」の小窓が開く。×で閉じる。",
-        "en": "When the cursor heads out through the top of the page (toward the tabs and close button), the page dims and a \"Wait!\" popup opens. The × closes it."
+        "en": "When the cursor heads out through the top of the page (toward the tabs and close button), the page dims and a \"Wait!\" popup opens. The × closes it.",
+        "ko": "커서가 페이지 위쪽(탭과 닫기 버튼이 있는 곳)으로 나가면 화면이 어두워지고 \"잠깐만요!\" 팝업이 열립니다. ×를 누르면 닫힙니다."
       },
       "spec": {
         "ja": [
@@ -861,21 +929,25 @@
       "name": {
         "ja": "ローディング画面",
         "en": "Preloader",
-        "zh-Hant": "Loading 畫面"
+        "zh-Hant": "Loading 畫面",
+        "ko": "프리로더"
       },
       "meaning": {
         "ja": "読み込み中に出す画面",
         "en": "A screen shown while the page loads",
-        "zh-Hant": "頁面載入期間顯示的畫面"
+        "zh-Hant": "頁面載入期間顯示的畫面",
+        "ko": "페이지를 불러오는 동안 보여 주는 화면"
       },
       "ask": {
         "ja": "サイトを開いたときのローディング画面を作って。ロゴと％の数字を出して、100%になったら幕が上がるように。",
         "en": "Make a preloader for the site: logo and a percentage, and the screen lifts away at 100%.",
-        "zh-Hant": "幫網站做開場的 Loading 畫面，顯示 Logo 和百分比數字，到 100% 時畫面像布幕一樣往上拉開。"
+        "zh-Hant": "幫網站做開場的 Loading 畫面，顯示 Logo 和百分比數字，到 100% 時畫面像布幕一樣往上拉開。",
+        "ko": "사이트에 프리로더를 만들어 주세요. 로고와 퍼센트 숫자를 보여 주고, 100%가 되면 화면이 위로 걷히게 해 주세요."
       },
       "summary": {
         "ja": "濃紺の画面でロゴの下の数字が0%から100%まで進み、終わると画面が上へ抜けて、下のページがふわっと現れる。",
-        "en": "On a navy screen the number under the logo counts from 0% to 100%; then the screen lifts away and the page underneath fades in."
+        "en": "On a navy screen the number under the logo counts from 0% to 100%; then the screen lifts away and the page underneath fades in.",
+        "ko": "네이비 화면에서 로고 아래 숫자가 0%부터 100%까지 올라가고, 끝나면 화면이 위로 걷히며 아래 페이지가 서서히 나타납니다."
       },
       "spec": {
         "ja": [
@@ -914,21 +986,25 @@
       "name": {
         "ja": "遅延読み込み",
         "en": "Lazy loading",
-        "zh-Hant": "Lazy Loading"
+        "zh-Hant": "Lazy Loading",
+        "ko": "레이지 로딩"
       },
       "meaning": {
         "ja": "画面に入った画像だけを読み込む",
         "en": "Images load only when they come into view",
-        "zh-Hant": "只載入進入畫面的圖片"
+        "zh-Hant": "只載入進入畫面的圖片",
+        "ko": "화면에 들어온 이미지만 불러옴"
       },
       "ask": {
         "ja": "ギャラリーの画像を遅延読み込みにして。読み込むまでは灰色の枠、届いたら0.3秒でフェードインして。",
         "en": "Lazy load the gallery images: grey placeholders until loaded, then fade in over 0.3 s.",
-        "zh-Hant": "相簿的圖片改用 Lazy Loading，載入前先顯示灰色佔位框，圖片載入後用 0.3 秒淡入。"
+        "zh-Hant": "相簿的圖片改用 Lazy Loading，載入前先顯示灰色佔位框，圖片載入後用 0.3 秒淡入。",
+        "ko": "갤러리 이미지에 레이지 로딩을 적용해 주세요. 불러오기 전까지는 회색 자리 표시를 두고, 다 불러오면 0.3초 동안 페이드인해 주세요."
       },
       "summary": {
         "ja": "スクロールで画面に入った灰色の枠に読み込み中の印が回り、画像が届くと順にフェードインする。上の段は最初から読み込み済み。",
-        "en": "As grey placeholders scroll into view, a spinner turns in each, and the images fade in as they arrive. The top row is loaded from the start."
+        "en": "As grey placeholders scroll into view, a spinner turns in each, and the images fade in as they arrive. The top row is loaded from the start.",
+        "ko": "회색 자리 표시가 스크롤로 화면에 들어오면 각각 안에서 로딩 표시가 돌고, 이미지가 도착하는 대로 페이드인합니다. 맨 윗줄은 처음부터 불러와 있습니다."
       },
       "spec": {
         "ja": [
@@ -967,21 +1043,25 @@
       "name": {
         "ja": "無限スクロール",
         "en": "Infinite scroll",
-        "zh-Hant": "無限捲動"
+        "zh-Hant": "無限捲動",
+        "ko": "무한 스크롤"
       },
       "meaning": {
         "ja": "下まで来ると続きが自動で足される",
         "en": "More items load automatically at the bottom",
-        "zh-Hant": "捲到底部時自動載入更多內容"
+        "zh-Hant": "捲到底部時自動載入更多內容",
+        "ko": "맨 아래에 닿으면 다음 항목이 자동으로 추가됨"
       },
       "ask": {
         "ja": "お知らせの一覧を無限スクロールにして。下まで来たら読み込み表示を出して、10件ずつ足して。",
         "en": "Make the news list an infinite scroll: show a spinner at the bottom and add ten items at a time.",
-        "zh-Hant": "最新消息列表改成無限捲動，捲到底時顯示載入中的圖示，每次增加 10 筆。"
+        "zh-Hant": "最新消息列表改成無限捲動，捲到底時顯示載入中的圖示，每次增加 10 筆。",
+        "ko": "소식 목록을 무한 스크롤로 만들어 주세요. 맨 아래에 로딩 표시를 보여 주고 항목을 10개씩 추가해 주세요."
       },
       "summary": {
         "ja": "一覧を下へスクロールして最後まで来ると、読み込み中の印が回り、新しい項目が3件足されて続きが読めるようになる。",
-        "en": "Scrolling down to the end of the list brings up a spinner, then three new items are added so reading can go on."
+        "en": "Scrolling down to the end of the list brings up a spinner, then three new items are added so reading can go on.",
+        "ko": "목록 끝까지 스크롤하면 로딩 표시가 돌고, 새 항목 3개가 추가되어 계속 읽을 수 있습니다."
       },
       "spec": {
         "ja": [
@@ -1018,21 +1098,25 @@
       "name": {
         "ja": "ページ遷移アニメーション",
         "en": "Page transition",
-        "zh-Hant": "頁面轉場"
+        "zh-Hant": "頁面轉場",
+        "ko": "페이지 전환"
       },
       "meaning": {
         "ja": "ページを移るときの切り替えの演出",
         "en": "An animation that bridges two pages",
-        "zh-Hant": "換頁時的過場動畫"
+        "zh-Hant": "換頁時的過場動畫",
+        "ko": "두 페이지 사이를 이어 주는 애니메이션"
       },
       "ask": {
         "ja": "ページ遷移アニメーションを付けて。リンクを押したら朱色の幕が左から右へ横切って次のページに切り替わるように。",
         "en": "Add a page transition: on link click, an orange panel sweeps across left to right and the next page appears.",
-        "zh-Hant": "加上頁面轉場，點擊連結後有一片橘紅色的幕布由左往右橫掃過畫面，接著切換到下一頁。"
+        "zh-Hant": "加上頁面轉場，點擊連結後有一片橘紅色的幕布由左往右橫掃過畫面，接著切換到下一頁。",
+        "ko": "페이지 전환을 넣어 주세요. 링크를 누르면 주황색 패널이 왼쪽에서 오른쪽으로 화면을 가로지르며 다음 페이지가 나타나게 해 주세요."
       },
       "summary": {
         "ja": "作品の一覧でカードを押すと朱色の幕が左から画面を覆い、URLが変わって幕が右へ抜けると詳しいページになっている。「一覧へ」で同じように戻る。",
-        "en": "Clicking a card in the work list sweeps an orange panel across from the left; the URL changes and the panel exits to the right on the detail page. \"Back to list\" returns the same way."
+        "en": "Clicking a card in the work list sweeps an orange panel across from the left; the URL changes and the panel exits to the right on the detail page. \"Back to list\" returns the same way.",
+        "ko": "작업 목록에서 카드를 누르면 주황색 패널이 왼쪽부터 화면을 덮고, URL이 바뀐 뒤 패널이 오른쪽으로 빠지면 상세 페이지가 나옵니다. \"목록으로\"를 누르면 같은 방식으로 돌아갑니다."
       },
       "spec": {
         "ja": [
@@ -1071,21 +1155,25 @@
       "name": {
         "ja": "スムーススクロール",
         "en": "Smooth scroll",
-        "zh-Hant": "平滑捲動"
+        "zh-Hant": "平滑捲動",
+        "ko": "스무스 스크롤"
       },
       "meaning": {
         "ja": "ページ内リンクでなめらかに移動する",
         "en": "In-page links glide to their target instead of jumping",
-        "zh-Hant": "點擊錨點連結時順暢地移動過去"
+        "zh-Hant": "點擊錨點連結時順暢地移動過去",
+        "ko": "페이지 내 링크가 툭 끊기지 않고 부드럽게 이동함"
       },
       "ask": {
         "ja": "メニューのページ内リンクをスムーススクロールにして。固定ヘッダーの高さ分ずらして止めて。",
         "en": "Make the menu's in-page links smooth scroll, stopping below the fixed header.",
-        "zh-Hant": "選單的錨點連結改成平滑捲動，停止的位置要扣掉固定式 Header 的高度。"
+        "zh-Hant": "選單的錨點連結改成平滑捲動，停止的位置要扣掉固定式 Header 的高度。",
+        "ko": "메뉴의 페이지 내 링크를 스무스 스크롤로 만들어 주세요. 고정 헤더 바로 아래에서 멈추게 해 주세요."
       },
       "summary": {
         "ja": "メニューの「料金」を押すとページがなめらかに料金の欄まで動き、右下の上向きボタンを押すと同じように一番上へ戻る。",
-        "en": "Clicking \"Pricing\" in the menu glides the page down to the pricing section; the up arrow at the bottom right glides it back to the top."
+        "en": "Clicking \"Pricing\" in the menu glides the page down to the pricing section; the up arrow at the bottom right glides it back to the top.",
+        "ko": "메뉴의 \"요금\"을 누르면 페이지가 요금 섹션까지 부드럽게 내려가고, 오른쪽 아래의 위쪽 화살표를 누르면 같은 방식으로 맨 위로 돌아갑니다."
       },
       "spec": {
         "ja": [
@@ -1123,21 +1211,25 @@
       "name": {
         "ja": "マーキー",
         "en": "Marquee",
-        "zh-Hant": "Marquee 跑馬燈"
+        "zh-Hant": "Marquee 跑馬燈",
+        "ko": "마키"
       },
       "meaning": {
         "ja": "文字や画像が帯で流れ続ける",
         "en": "Text or logos scroll across in an endless band",
-        "zh-Hant": "文字或圖片在橫帶中不斷流動"
+        "zh-Hant": "文字或圖片在橫帶中不斷流動",
+        "ko": "글자나 로고가 띠 모양으로 끝없이 흘러감"
       },
       "ask": {
         "ja": "サービス名をマーキーで右から左へ流して。途切れずにループさせて、速さは1秒に80pxくらい。",
         "en": "Run the service names in a marquee from right to left, looping without a gap, at about 80 px per second.",
-        "zh-Hant": "服務名稱用 Marquee 跑馬燈由右往左流動，無縫循環，速度大約每秒 80 px。"
+        "zh-Hant": "服務名稱用 Marquee 跑馬燈由右往左流動，無縫循環，速度大約每秒 80 px。",
+        "ko": "서비스 이름을 마키로 오른쪽에서 왼쪽으로 흘려 주세요. 끊김 없이 반복되게 하고, 속도는 초당 80px 정도로 해 주세요."
       },
       "summary": {
         "ja": "濃紺の帯の中で、大きな英字のサービス名と朱色の点が、途切れずに左へ流れ続ける。",
-        "en": "Inside a navy band, large service names separated by orange dots keep moving to the left without a gap."
+        "en": "Inside a navy band, large service names separated by orange dots keep moving to the left without a gap.",
+        "ko": "네이비 띠 안에서 주황색 점으로 구분된 큰 서비스 이름들이 끊김 없이 왼쪽으로 계속 흘러갑니다."
       },
       "spec": {
         "ja": [
@@ -1174,21 +1266,25 @@
       "name": {
         "ja": "グラデーションアニメーション",
         "en": "Animated gradient",
-        "zh-Hant": "漸層動畫"
+        "zh-Hant": "漸層動畫",
+        "ko": "그라데이션 애니메이션"
       },
       "meaning": {
         "ja": "背景の色の混ざり方が動き続ける",
         "en": "Background colours keep drifting and blending",
-        "zh-Hant": "背景色彩的混合不斷流動變化"
+        "zh-Hant": "背景色彩的混合不斷流動變化",
+        "ko": "배경색이 계속 움직이며 섞임"
       },
       "ask": {
         "ja": "ファーストビューの背景をグラデーションアニメーションにして。朱色と青がゆっくり混ざり合うように、10秒で1周。",
         "en": "Give the hero an animated gradient background: orange and blue slowly blending, one loop every 10 s.",
-        "zh-Hant": "Hero 區塊的背景做成漸層動畫，橘紅色和藍色慢慢地混合，10 秒循環一次。"
+        "zh-Hant": "Hero 區塊的背景做成漸層動畫，橘紅色和藍色慢慢地混合，10 秒循環一次。",
+        "ko": "히어로 배경에 그라데이션 애니메이션을 넣어 주세요. 주황색과 파란색이 천천히 섞이고, 10초에 한 바퀴 돌게 해 주세요."
       },
       "summary": {
         "ja": "見出しの後ろで、朱色・薄い朱色・青・薄い青のぼんやりした色の塊がゆっくり回り、混ざり方が変わり続ける。",
-        "en": "Behind the headline, soft patches of orange, light orange, blue and light blue drift in circles and keep blending differently."
+        "en": "Behind the headline, soft patches of orange, light orange, blue and light blue drift in circles and keep blending differently.",
+        "ko": "제목 뒤에서 주황색, 연한 주황색, 파란색, 연한 파란색의 흐릿한 색 덩어리가 원을 그리며 움직이고, 섞이는 모습이 계속 달라집니다."
       },
       "spec": {
         "ja": [
@@ -1225,21 +1321,25 @@
       "name": {
         "ja": "ふわふわアニメーション",
         "en": "Floating animation",
-        "zh-Hant": "漂浮動畫"
+        "zh-Hant": "漂浮動畫",
+        "ko": "플로팅 애니메이션"
       },
       "meaning": {
         "ja": "飾りがゆっくり上下に浮き沈みする",
         "en": "Elements bob gently up and down",
-        "zh-Hant": "裝飾元素緩慢地上下飄浮"
+        "zh-Hant": "裝飾元素緩慢地上下飄浮",
+        "ko": "요소가 위아래로 살랑살랑 떠다님"
       },
       "ask": {
         "ja": "ファーストビューのスマホの画像に、ふわふわアニメーションを付けて。上下8px、2.4秒で1往復。",
         "en": "Give the phone image in the hero a floating animation: 8 px up and down, one bob every 2.4 s.",
-        "zh-Hant": "Hero 區塊的手機圖片加上漂浮動畫，上下 8 px，2.4 秒一個來回。"
+        "zh-Hant": "Hero 區塊的手機圖片加上漂浮動畫，上下 8 px，2.4 秒一個來回。",
+        "ko": "히어로의 휴대폰 이미지에 플로팅 애니메이션을 넣어 주세요. 위아래로 8px, 2.4초에 한 번 오르내리게 해 주세요."
       },
       "summary": {
         "ja": "見出しの横で、スマホの画像とハートの丸・評価の札が、それぞれ少しずつずれてゆっくり上下し、スマホの下の影も伸び縮みする。",
-        "en": "Next to the headline, a phone, a heart badge and a rating chip each bob gently out of step, and the shadow under the phone grows and shrinks."
+        "en": "Next to the headline, a phone, a heart badge and a rating chip each bob gently out of step, and the shadow under the phone grows and shrinks.",
+        "ko": "제목 옆에서 휴대폰, 하트 배지, 평점 칩이 서로 박자를 조금씩 달리하며 천천히 오르내리고, 휴대폰 아래 그림자도 커졌다 작아졌다 합니다."
       },
       "spec": {
         "ja": [

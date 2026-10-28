@@ -2,7 +2,7 @@
 
 # Motion graphics moves, part 2
 
-24 names · #121–144 · pack `motion2` · Languages: [日本語](README.ja.md)
+24 names · #121–144 · pack `motion2` · Languages: [日本語](README.ja.md) / [한국어](README.ko.md)
 
 Find the name, then say it to your AI. Add how long, how strong and what moves, and the result gets closer to what you had in mind.
 

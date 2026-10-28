@@ -1,21 +1,22 @@
 {
   "pack": "lp2",
   "order": 7,
-  "title": { "ja": "LP・Webサイトの演出 第2弾", "en": "Landing page & web effects, part 2" },
+  "title": { "ja": "LP・Webサイトの演出 第2弾", "en": "Landing page & web effects, part 2", "ko": "랜딩 페이지·웹사이트 연출 2탄" },
   "categories": [
-    { "slug": "scroll", "ja": "スクロールで起きる演出", "en": "Scroll effects" },
-    { "slug": "mouse-input", "ja": "マウス・入力への反応", "en": "Mouse & input interactions" },
-    { "slug": "showcase", "ja": "見せ場の演出", "en": "Showcase effects" }
+    { "slug": "scroll", "ja": "スクロールで起きる演出", "en": "Scroll effects", "ko": "스크롤 연출" },
+    { "slug": "mouse-input", "ja": "マウス・入力への反応", "en": "Mouse & input interactions", "ko": "마우스·입력 반응" },
+    { "slug": "showcase", "ja": "見せ場の演出", "en": "Showcase effects", "ko": "하이라이트 연출" }
   ],
   "elements": [
     {
       "no": "01", "slug": "timeline-on-scroll", "category": "scroll",
-      "name": { "ja": "タイムラインアニメーション", "en": "Timeline on scroll" },
-      "meaning": { "ja": "スクロールで年表の線が伸びる", "en": "A timeline line grows as you scroll" },
-      "ask": { "ja": "会社のあゆみをタイムラインアニメーションにして。スクロールに合わせて縦線を伸ばし、線が届いた年から順に出して。", "en": "Turn the company history into a timeline on scroll: grow the vertical line with the scroll and reveal each year as the line reaches it." },
+      "name": { "ja": "タイムラインアニメーション", "en": "Timeline on scroll", "ko": "스크롤 타임라인" },
+      "meaning": { "ja": "スクロールで年表の線が伸びる", "en": "A timeline line grows as you scroll", "ko": "스크롤하면 타임라인 선이 늘어남" },
+      "ask": { "ja": "会社のあゆみをタイムラインアニメーションにして。スクロールに合わせて縦線を伸ばし、線が届いた年から順に出して。", "en": "Turn the company history into a timeline on scroll: grow the vertical line with the scroll and reveal each year as the line reaches it.", "ko": "회사 연혁을 스크롤 타임라인으로 만들어 주세요. 스크롤에 맞춰 세로선을 늘리고, 선이 닿는 연도부터 차례로 나타나게 해 주세요." },
       "summary": {
         "ja": "ページを下へスクロールすると、年表の縦線が朱色で上から伸び、線の先が届いた年の点が塗られて、年と出来事が右から現れる。上へ戻すと逆にたどる。",
-        "en": "As the page scrolls down, an orange line grows down the timeline; each dot it reaches fills in and its year and event slide in from the right. Scrolling back up reverses it."
+        "en": "As the page scrolls down, an orange line grows down the timeline; each dot it reaches fills in and its year and event slide in from the right. Scrolling back up reverses it.",
+        "ko": "페이지를 아래로 스크롤하면 주황색 선이 타임라인을 따라 아래로 늘어나고, 선이 닿은 점이 채워지며 연도와 사건이 오른쪽에서 밀려 들어옵니다. 위로 되돌리면 거꾸로 진행됩니다."
       },
       "spec": {
         "ja": [
@@ -41,12 +42,13 @@
     },
     {
       "no": "02", "slug": "scroll-text-reveal", "category": "scroll",
-      "name": { "ja": "スクロールテキストリビール", "en": "Scroll text reveal" },
-      "meaning": { "ja": "読み進めると文字が順に濃くなる", "en": "Text darkens letter by letter as you scroll" },
-      "ask": { "ja": "コンセプト文にスクロールテキストリビールを付けて。最初は薄いグレーで、スクロールに合わせて1文字ずつ濃くして。", "en": "Add a scroll text reveal to the concept statement: start in light gray and darken it one character at a time as the page scrolls." },
+      "name": { "ja": "スクロールテキストリビール", "en": "Scroll text reveal", "ko": "스크롤 텍스트 리빌" },
+      "meaning": { "ja": "読み進めると文字が順に濃くなる", "en": "Text darkens letter by letter as you scroll", "ko": "스크롤하면 글자가 한 자씩 진해짐" },
+      "ask": { "ja": "コンセプト文にスクロールテキストリビールを付けて。最初は薄いグレーで、スクロールに合わせて1文字ずつ濃くして。", "en": "Add a scroll text reveal to the concept statement: start in light gray and darken it one character at a time as the page scrolls.", "ko": "콘셉트 문구에 스크롤 텍스트 리빌을 넣어 주세요. 처음에는 연한 회색으로 두고, 스크롤에 맞춰 한 글자씩 진해지게 해 주세요." },
       "summary": {
         "ja": "薄いグレーの見出しの文字が、スクロールに合わせて左上から1文字ずつ濃くなり、戻すと後ろから薄くなる。",
-        "en": "A light gray headline darkens one character at a time from the top left as the page scrolls, and fades back from the end when scrolling up."
+        "en": "A light gray headline darkens one character at a time from the top left as the page scrolls, and fades back from the end when scrolling up.",
+        "ko": "연한 회색 제목이 스크롤에 맞춰 왼쪽 위부터 한 글자씩 진해지고, 위로 스크롤하면 끝에서부터 다시 연해집니다."
       },
       "spec": {
         "ja": [
@@ -70,12 +72,13 @@
     },
     {
       "no": "03", "slug": "stacking-cards", "category": "scroll",
-      "name": { "ja": "スタッキングカード", "en": "Stacking cards" },
-      "meaning": { "ja": "スクロールでカードが積み重なる", "en": "Cards stack on top of each other on scroll" },
-      "ask": { "ja": "サービスの3ステップをスタッキングカードにして。スクロールで次のカードが下から来て、12pxずつずらして重なるように。", "en": "Show the three service steps as stacking cards: on scroll, each card slides up and stacks 12 px below the top of the one before." },
+      "name": { "ja": "スタッキングカード", "en": "Stacking cards", "ko": "스태킹 카드" },
+      "meaning": { "ja": "スクロールでカードが積み重なる", "en": "Cards stack on top of each other on scroll", "ko": "스크롤하면 카드가 차곡차곡 쌓임" },
+      "ask": { "ja": "サービスの3ステップをスタッキングカードにして。スクロールで次のカードが下から来て、12pxずつずらして重なるように。", "en": "Show the three service steps as stacking cards: on scroll, each card slides up and stacks 12 px below the top of the one before.", "ko": "서비스 3단계를 스태킹 카드로 보여 주세요. 스크롤하면 카드가 하나씩 아래에서 올라와, 앞 카드의 윗부분에서 12px 아래에 겹쳐 쌓이게 해 주세요." },
       "summary": {
         "ja": "スクロールすると、次のカードが下から上がってきて、前のカードに少しずらして重なる。下になったカードは少し縮んで暗くなる。",
-        "en": "On scroll, the next card rises from below and stacks over the previous one with a small offset; the cards underneath shrink a little and darken."
+        "en": "On scroll, the next card rises from below and stacks over the previous one with a small offset; the cards underneath shrink a little and darken.",
+        "ko": "스크롤하면 다음 카드가 아래에서 올라와 앞 카드 위에 살짝 어긋나게 겹칩니다. 밑에 깔린 카드는 조금 작아지고 어두워집니다."
       },
       "spec": {
         "ja": [
@@ -101,12 +104,13 @@
     },
     {
       "no": "04", "slug": "background-color-change", "category": "scroll",
-      "name": { "ja": "背景色の切り替え", "en": "Background color change on scroll" },
-      "meaning": { "ja": "セクションごとに背景の色が変わる", "en": "The page background changes color by section" },
-      "ask": { "ja": "セクションごとに背景色の切り替えを入れて。スクロールで朝はクリーム、夜は濃紺、休日は水色へなめらかに変えて。", "en": "Add a background color change on scroll: blend smoothly from cream for the morning section to navy for night and light blue for the holiday section." },
+      "name": { "ja": "背景色の切り替え", "en": "Background color change on scroll", "ko": "스크롤 배경색 전환" },
+      "meaning": { "ja": "セクションごとに背景の色が変わる", "en": "The page background changes color by section", "ko": "섹션마다 페이지 배경색이 바뀜" },
+      "ask": { "ja": "セクションごとに背景色の切り替えを入れて。スクロールで朝はクリーム、夜は濃紺、休日は水色へなめらかに変えて。", "en": "Add a background color change on scroll: blend smoothly from cream for the morning section to navy for night and light blue for the holiday section.", "ko": "스크롤 배경색 전환을 넣어 주세요. 아침 섹션은 크림색, 밤 섹션은 네이비, 휴일 섹션은 하늘색으로 부드럽게 바뀌게 해 주세요." },
       "summary": {
         "ja": "スクロールしてセクションが変わるたびに、ページ全体の背景がクリーム→濃紺→水色となめらかに変わる。暗い背景では文字が白になる。",
-        "en": "Each time the scroll moves into a new section, the whole page background blends from cream to navy to light blue; on the dark background the text turns white."
+        "en": "Each time the scroll moves into a new section, the whole page background blends from cream to navy to light blue; on the dark background the text turns white.",
+        "ko": "스크롤해서 새 섹션에 들어설 때마다 페이지 전체 배경이 크림색에서 네이비, 하늘색으로 부드럽게 바뀝니다. 어두운 배경에서는 글자가 흰색으로 바뀝니다."
       },
       "spec": {
         "ja": [
@@ -132,12 +136,13 @@
     },
     {
       "no": "05", "slug": "hide-on-scroll-header", "category": "scroll",
-      "name": { "ja": "隠れるヘッダー", "en": "Hide-on-scroll header" },
-      "meaning": { "ja": "下へで隠れて上へで出てくる", "en": "Hides on scroll down, returns on scroll up" },
-      "ask": { "ja": "ヘッダーを隠れるヘッダーにして。下へスクロールしたら0.3秒で上へ隠し、少しでも上へ戻したら出して。", "en": "Make the header hide on scroll: slide it up out of view over 0.3 s when scrolling down, and bring it back as soon as the user scrolls up." },
+      "name": { "ja": "隠れるヘッダー", "en": "Hide-on-scroll header", "ko": "숨김 헤더" },
+      "meaning": { "ja": "下へで隠れて上へで出てくる", "en": "Hides on scroll down, returns on scroll up", "ko": "아래로 스크롤하면 숨고 위로 스크롤하면 다시 나타남" },
+      "ask": { "ja": "ヘッダーを隠れるヘッダーにして。下へスクロールしたら0.3秒で上へ隠し、少しでも上へ戻したら出して。", "en": "Make the header hide on scroll: slide it up out of view over 0.3 s when scrolling down, and bring it back as soon as the user scrolls up.", "ko": "헤더를 숨김 헤더로 만들어 주세요. 아래로 스크롤하면 0.3초 동안 위로 밀려 사라지고, 위로 스크롤하면 바로 다시 나타나게 해 주세요." },
       "summary": {
         "ja": "下へスクロールするとヘッダーが上へ引っ込んで読む場所が広くなり、少し上へ戻すとすぐに出てくる。",
-        "en": "Scrolling down slides the header up out of view to free the screen; scrolling up even a little brings it straight back."
+        "en": "Scrolling down slides the header up out of view to free the screen; scrolling up even a little brings it straight back.",
+        "ko": "아래로 스크롤하면 헤더가 위로 밀려 사라져 화면이 넓어지고, 조금만 위로 스크롤해도 곧바로 다시 나타납니다."
       },
       "spec": {
         "ja": [
@@ -161,12 +166,13 @@
     },
     {
       "no": "06", "slug": "scrollspy", "category": "scroll",
-      "name": { "ja": "スクロールスパイ", "en": "Scrollspy" },
-      "meaning": { "ja": "読んでいる見出しが目次で光る", "en": "Highlights the current section in the menu" },
-      "ask": { "ja": "記事の目次にスクロールスパイを付けて。今読んでいる見出しの項目を朱色にして、切り替えは0.25秒で。", "en": "Add scrollspy to the article's table of contents: highlight the item for the section being read in orange, switching over 0.25 s." },
+      "name": { "ja": "スクロールスパイ", "en": "Scrollspy", "ko": "스크롤스파이" },
+      "meaning": { "ja": "読んでいる見出しが目次で光る", "en": "Highlights the current section in the menu", "ko": "메뉴에서 지금 보고 있는 섹션을 강조함" },
+      "ask": { "ja": "記事の目次にスクロールスパイを付けて。今読んでいる見出しの項目を朱色にして、切り替えは0.25秒で。", "en": "Add scrollspy to the article's table of contents: highlight the item for the section being read in orange, switching over 0.25 s.", "ko": "글의 목차에 스크롤스파이를 넣어 주세요. 지금 읽고 있는 섹션의 항목을 주황색으로 강조하고, 0.25초 동안 전환되게 해 주세요." },
       "summary": {
         "ja": "本文をスクロールすると、左の目次のうち、いま読んでいる見出しの項目に色が付き、次の見出しに入ると印が移る。",
-        "en": "As the article scrolls, the table-of-contents item for the section being read lights up, and the highlight moves on when the next heading comes in."
+        "en": "As the article scrolls, the table-of-contents item for the section being read lights up, and the highlight moves on when the next heading comes in.",
+        "ko": "글을 스크롤하면 목차에서 지금 읽는 섹션의 항목에 불이 들어오고, 다음 제목에 들어서면 강조 표시가 옮겨 갑니다."
       },
       "spec": {
         "ja": [
@@ -190,12 +196,13 @@
     },
     {
       "no": "07", "slug": "back-to-top-button", "category": "scroll",
-      "name": { "ja": "トップへ戻るボタン", "en": "Back-to-top button" },
-      "meaning": { "ja": "下まで読むと現れて押すと先頭へ", "en": "Appears lower down and returns you to the top" },
-      "ask": { "ja": "記事ページにトップへ戻るボタンを付けて。少しスクロールしたら右下に出して、押したら0.6秒で先頭まで戻して。", "en": "Add a back-to-top button to the article page: show it at the bottom right once the reader has scrolled a little, and scroll to the top in 0.6 s when clicked." },
+      "name": { "ja": "トップへ戻るボタン", "en": "Back-to-top button", "ko": "맨 위로 버튼" },
+      "meaning": { "ja": "下まで読むと現れて押すと先頭へ", "en": "Appears lower down and returns you to the top", "ko": "아래로 내려가면 나타나 맨 위로 돌아가게 해 줌" },
+      "ask": { "ja": "記事ページにトップへ戻るボタンを付けて。少しスクロールしたら右下に出して、押したら0.6秒で先頭まで戻して。", "en": "Add a back-to-top button to the article page: show it at the bottom right once the reader has scrolled a little, and scroll to the top in 0.6 s when clicked.", "ko": "글 페이지에 맨 위로 버튼을 넣어 주세요. 조금 스크롤하면 오른쪽 아래에 나타나고, 누르면 0.6초 동안 맨 위로 스크롤되게 해 주세요." },
       "summary": {
         "ja": "下までスクロールすると右下に丸い矢印のボタンが現れ、押すとページが一気に先頭まで戻る。",
-        "en": "After scrolling down, a round arrow button appears at the bottom right; clicking it takes the page straight back to the top."
+        "en": "After scrolling down, a round arrow button appears at the bottom right; clicking it takes the page straight back to the top.",
+        "ko": "아래로 스크롤하면 오른쪽 아래에 둥근 화살표 버튼이 나타나고, 누르면 페이지가 곧바로 맨 위로 돌아갑니다."
       },
       "spec": {
         "ja": [
@@ -219,12 +226,13 @@
     },
     {
       "no": "08", "slug": "zoom-on-scroll", "category": "scroll",
-      "name": { "ja": "スクロールで拡大", "en": "Zoom on scroll" },
-      "meaning": { "ja": "画像が画面いっぱいまで広がる", "en": "An image grows to fill the screen as you scroll" },
-      "ask": { "ja": "ファーストビューの写真をスクロールで拡大にして。中央の小さな写真をスクロールに合わせて画面いっぱいまで広げ、広がりきったら見出しを重ねて。", "en": "Use zoom on scroll for the hero image: grow the small centered photo to fill the viewport as the user scrolls, then fade a headline in over it." },
+      "name": { "ja": "スクロールで拡大", "en": "Zoom on scroll", "ko": "스크롤 줌" },
+      "meaning": { "ja": "画像が画面いっぱいまで広がる", "en": "An image grows to fill the screen as you scroll", "ko": "스크롤하면 이미지가 화면을 가득 채울 만큼 커짐" },
+      "ask": { "ja": "ファーストビューの写真をスクロールで拡大にして。中央の小さな写真をスクロールに合わせて画面いっぱいまで広げ、広がりきったら見出しを重ねて。", "en": "Use zoom on scroll for the hero image: grow the small centered photo to fill the viewport as the user scrolls, then fade a headline in over it.", "ko": "히어로 이미지에 스크롤 줌을 적용해 주세요. 가운데 있는 작은 사진이 스크롤에 맞춰 화면을 가득 채울 때까지 커지고, 그 위로 제목이 페이드인되게 해 주세요." },
       "summary": {
         "ja": "スクロールに合わせて、ページ中央の小さな写真が窓いっぱいまで広がり、周りの文字が消えて、写真の上に見出しが出る。",
-        "en": "As the page scrolls, a small photo in the middle grows to fill the window, the text around it fades away and a headline appears over the photo."
+        "en": "As the page scrolls, a small photo in the middle grows to fill the window, the text around it fades away and a headline appears over the photo.",
+        "ko": "스크롤하면 가운데의 작은 사진이 창을 가득 채울 만큼 커지고, 주변 글자는 사라지며 사진 위에 제목이 나타납니다."
       },
       "spec": {
         "ja": [
@@ -248,12 +256,13 @@
     },
     {
       "no": "09", "slug": "3d-tilt", "category": "mouse-input",
-      "name": { "ja": "3Dチルト", "en": "3D tilt on hover" },
-      "meaning": { "ja": "カーソルの向きにカードが傾く", "en": "The card tilts in 3D following the cursor" },
-      "ask": { "ja": "会員カードに3Dチルトを付けて。カーソルの位置に合わせて最大18°傾けて、光の反射も動かして。", "en": "Add a 3D tilt on hover to the member card: tilt it up to 18° following the cursor, with a moving glare." },
+      "name": { "ja": "3Dチルト", "en": "3D tilt on hover", "ko": "3D 틸트" },
+      "meaning": { "ja": "カーソルの向きにカードが傾く", "en": "The card tilts in 3D following the cursor", "ko": "카드가 커서를 따라 입체적으로 기울어짐" },
+      "ask": { "ja": "会員カードに3Dチルトを付けて。カーソルの位置に合わせて最大18°傾けて、光の反射も動かして。", "en": "Add a 3D tilt on hover to the member card: tilt it up to 18° following the cursor, with a moving glare.", "ko": "회원 카드에 3D 틸트를 넣어 주세요. 커서 위치에 따라 최대 18°까지 기울고, 빛 반사도 함께 움직이게 해 주세요." },
       "summary": {
         "ja": "カーソルがカードの上を動くと、カードがカーソルの位置に合わせて奥行きをもって傾き、表面の光の反射も一緒に動く。離れると平らに戻る。",
-        "en": "As the cursor moves over the card, the card tilts in depth to match the cursor position and a glare moves across its surface; it settles flat when the cursor leaves."
+        "en": "As the cursor moves over the card, the card tilts in depth to match the cursor position and a glare moves across its surface; it settles flat when the cursor leaves.",
+        "ko": "커서가 카드 위를 움직이면 카드가 커서 위치에 맞춰 입체적으로 기울고, 표면의 빛 반사도 따라 움직입니다. 커서가 벗어나면 평평하게 돌아옵니다."
       },
       "spec": {
         "ja": [
@@ -279,12 +288,13 @@
     },
     {
       "no": "10", "slug": "spotlight-hover", "category": "mouse-input",
-      "name": { "ja": "スポットライトホバー", "en": "Spotlight hover" },
-      "meaning": { "ja": "カーソルの周りだけ明るくなる", "en": "Only the area around the cursor lights up" },
-      "ask": { "ja": "特長のカードにスポットライトホバーを付けて。暗いカードの上で、カーソルの周り半径120pxくらいだけ明るくして、縁も光らせて。", "en": "Add a spotlight hover to the feature cards: on the dark cards, light up only a circle of about 120 px around the cursor and make the borders glow too." },
+      "name": { "ja": "スポットライトホバー", "en": "Spotlight hover", "ko": "스포트라이트 호버" },
+      "meaning": { "ja": "カーソルの周りだけ明るくなる", "en": "Only the area around the cursor lights up", "ko": "커서 주변만 밝아짐" },
+      "ask": { "ja": "特長のカードにスポットライトホバーを付けて。暗いカードの上で、カーソルの周り半径120pxくらいだけ明るくして、縁も光らせて。", "en": "Add a spotlight hover to the feature cards: on the dark cards, light up only a circle of about 120 px around the cursor and make the borders glow too.", "ko": "기능 카드에 스포트라이트 호버를 넣어 주세요. 어두운 카드 위에서 커서 주변 약 120px 원만 밝히고, 테두리도 빛나게 해 주세요." },
       "summary": {
         "ja": "暗いカードの上をカーソルが動くと、カーソルの周りだけが丸く明るく照らされ、近くのカードの縁も光る。",
-        "en": "As the cursor moves over the dark cards, only a circle around it is lit, and the edges of nearby cards glow."
+        "en": "As the cursor moves over the dark cards, only a circle around it is lit, and the edges of nearby cards glow.",
+        "ko": "어두운 카드 위로 커서가 움직이면 커서 주변의 원만 밝게 비치고, 가까운 카드의 테두리도 빛납니다."
       },
       "spec": {
         "ja": [
@@ -310,12 +320,13 @@
     },
     {
       "no": "11", "slug": "image-swap-on-hover", "category": "mouse-input",
-      "name": { "ja": "ホバーで画像切り替え", "en": "Image swap on hover" },
-      "meaning": { "ja": "乗せると別の写真に切り替わる", "en": "Hovering swaps the photo for another shot" },
-      "ask": { "ja": "商品一覧にホバーで画像切り替えを付けて。カーソルを乗せたら0.3秒で後ろ姿の写真にクロスフェードして。", "en": "Add an image swap on hover to the product grid: cross-fade to the back view over 0.3 s when the cursor is on a card." },
+      "name": { "ja": "ホバーで画像切り替え", "en": "Image swap on hover", "ko": "호버 이미지 전환" },
+      "meaning": { "ja": "乗せると別の写真に切り替わる", "en": "Hovering swaps the photo for another shot", "ko": "마우스를 올리면 다른 사진으로 바뀜" },
+      "ask": { "ja": "商品一覧にホバーで画像切り替えを付けて。カーソルを乗せたら0.3秒で後ろ姿の写真にクロスフェードして。", "en": "Add an image swap on hover to the product grid: cross-fade to the back view over 0.3 s when the cursor is on a card.", "ko": "상품 목록에 호버 이미지 전환을 넣어 주세요. 카드에 커서를 올리면 0.3초 동안 뒷모습 사진으로 크로스페이드해 주세요." },
       "summary": {
         "ja": "商品カードにカーソルを乗せると、Tシャツの正面の写真が後ろ姿の写真にふわっと切り替わり、離れると正面に戻る。",
-        "en": "With the cursor on a product card, the front photo of the T-shirt cross-fades to a back view; it returns to the front when the cursor leaves."
+        "en": "With the cursor on a product card, the front photo of the T-shirt cross-fades to a back view; it returns to the front when the cursor leaves.",
+        "ko": "상품 카드에 커서를 올리면 티셔츠 앞모습 사진이 뒷모습 사진으로 크로스페이드되고, 커서가 벗어나면 앞모습으로 돌아갑니다."
       },
       "spec": {
         "ja": [
@@ -339,12 +350,13 @@
     },
     {
       "no": "12", "slug": "text-roll-on-hover", "category": "mouse-input",
-      "name": { "ja": "テキストロール", "en": "Text roll on hover" },
-      "meaning": { "ja": "文字が上に回って入れ替わる", "en": "Letters roll up and swap on hover" },
-      "ask": { "ja": "グローバルメニューにテキストロールを付けて。カーソルを乗せたら文字が1文字ずつ0.035秒ずらして上へ回り、朱色の同じ文字が下から出るように。", "en": "Give the main menu a text roll on hover: the letters roll up one by one, 0.035 s apart, revealing the same word in orange from below." },
+      "name": { "ja": "テキストロール", "en": "Text roll on hover", "ko": "텍스트 롤" },
+      "meaning": { "ja": "文字が上に回って入れ替わる", "en": "Letters roll up and swap on hover", "ko": "마우스를 올리면 글자가 위로 굴러 바뀜" },
+      "ask": { "ja": "グローバルメニューにテキストロールを付けて。カーソルを乗せたら文字が1文字ずつ0.035秒ずらして上へ回り、朱色の同じ文字が下から出るように。", "en": "Give the main menu a text roll on hover: the letters roll up one by one, 0.035 s apart, revealing the same word in orange from below.", "ko": "메인 메뉴에 텍스트 롤 호버를 넣어 주세요. 글자가 0.035초 간격으로 하나씩 위로 굴러 올라가고, 아래에서 같은 단어가 주황색으로 나타나게 해 주세요." },
       "summary": {
         "ja": "メニューの文字にカーソルを乗せると、文字が1文字ずつ上へ回って消え、同じ文字が朱色で下から出てくる。離れると元に戻る。",
-        "en": "With the cursor on a menu word, its letters roll up and out one by one while the same word rolls in from below in orange; it rolls back when the cursor leaves."
+        "en": "With the cursor on a menu word, its letters roll up and out one by one while the same word rolls in from below in orange; it rolls back when the cursor leaves.",
+        "ko": "메뉴 단어에 커서를 올리면 글자가 하나씩 위로 굴러 사라지고, 같은 단어가 주황색으로 아래에서 굴러 들어옵니다. 커서가 벗어나면 원래대로 돌아갑니다."
       },
       "spec": {
         "ja": [
@@ -368,12 +380,13 @@
     },
     {
       "no": "13", "slug": "hover-image-reveal", "category": "mouse-input",
-      "name": { "ja": "ホバーで画像プレビュー", "en": "Hover image reveal" },
-      "meaning": { "ja": "リストに乗せると写真が出る", "en": "Hovering a list item shows its photo" },
-      "ask": { "ja": "施設一覧をホバーで画像プレビューにして。行にカーソルを乗せたら、その写真をカーソルの横に0.25秒で出して、カーソルについて動かして。", "en": "Turn the property list into a hover image reveal: when the cursor is on a row, show its photo beside the cursor over 0.25 s and let it follow the cursor." },
+      "name": { "ja": "ホバーで画像プレビュー", "en": "Hover image reveal", "ko": "호버 이미지 미리보기" },
+      "meaning": { "ja": "リストに乗せると写真が出る", "en": "Hovering a list item shows its photo", "ko": "목록 항목에 마우스를 올리면 사진이 나타남" },
+      "ask": { "ja": "施設一覧をホバーで画像プレビューにして。行にカーソルを乗せたら、その写真をカーソルの横に0.25秒で出して、カーソルについて動かして。", "en": "Turn the property list into a hover image reveal: when the cursor is on a row, show its photo beside the cursor over 0.25 s and let it follow the cursor.", "ko": "숙소 목록에 호버 이미지 미리보기를 넣어 주세요. 행에 커서를 올리면 0.25초 동안 커서 옆에 그 사진을 띄우고, 커서를 따라 움직이게 해 주세요." },
       "summary": {
         "ja": "文字だけのリストの行にカーソルを乗せると、その行の写真がカーソルの横にふわっと出て、カーソルについて動く。",
-        "en": "With the cursor on a row of a text-only list, that row's photo fades in beside the cursor and follows it."
+        "en": "With the cursor on a row of a text-only list, that row's photo fades in beside the cursor and follows it.",
+        "ko": "글자만 있는 목록의 행에 커서를 올리면 그 행의 사진이 커서 옆에 서서히 나타나 커서를 따라다닙니다."
       },
       "spec": {
         "ja": [
@@ -397,12 +410,13 @@
     },
     {
       "no": "14", "slug": "floating-label", "category": "mouse-input",
-      "name": { "ja": "フローティングラベル", "en": "Floating label" },
-      "meaning": { "ja": "入力するとラベルが上へ移る", "en": "The label floats up when you start typing" },
-      "ask": { "ja": "フォームの入力欄をフローティングラベルにして。フォーカスしたらラベルを0.24秒で小さくして枠の上の線へ移して。", "en": "Use floating labels in the form: on focus, shrink each label and move it onto the top border over 0.24 s." },
+      "name": { "ja": "フローティングラベル", "en": "Floating label", "ko": "플로팅 라벨" },
+      "meaning": { "ja": "入力するとラベルが上へ移る", "en": "The label floats up when you start typing", "ko": "입력을 시작하면 라벨이 위로 떠오름" },
+      "ask": { "ja": "フォームの入力欄をフローティングラベルにして。フォーカスしたらラベルを0.24秒で小さくして枠の上の線へ移して。", "en": "Use floating labels in the form: on focus, shrink each label and move it onto the top border over 0.24 s.", "ko": "폼에 플로팅 라벨을 적용해 주세요. 포커스되면 0.24초 동안 라벨이 작아지면서 위쪽 테두리 위로 올라가게 해 주세요." },
       "summary": {
         "ja": "入力欄をクリックするとラベルが小さくなって欄の上の線へ移り、空いた欄に文字を打てる。空にして外すとラベルが中に戻る。",
-        "en": "Clicking the field shrinks the label and moves it onto the top border, leaving the field free for typing; empty and unfocused, the label moves back inside."
+        "en": "Clicking the field shrinks the label and moves it onto the top border, leaving the field free for typing; empty and unfocused, the label moves back inside.",
+        "ko": "입력란을 클릭하면 라벨이 작아지며 위쪽 테두리로 올라가 입력할 공간이 생깁니다. 비워 둔 채 포커스를 벗어나면 라벨이 다시 안으로 돌아옵니다."
       },
       "spec": {
         "ja": [
@@ -428,12 +442,13 @@
     },
     {
       "no": "15", "slug": "inline-validation", "category": "mouse-input",
-      "name": { "ja": "インラインバリデーション", "en": "Inline validation" },
-      "meaning": { "ja": "入力中に正誤をその場で表示", "en": "Shows right or wrong while you type" },
-      "ask": { "ja": "お問い合わせフォームにインラインバリデーションを入れて。メールアドレスを打っている間は赤で「形式が正しくありません」、正しくなったら緑のチェックを出して。", "en": "Add inline validation to the contact form: while the email address is incomplete show a red \"invalid format\" message, and switch to a green check once it is valid." },
+      "name": { "ja": "インラインバリデーション", "en": "Inline validation", "ko": "인라인 유효성 검사" },
+      "meaning": { "ja": "入力中に正誤をその場で表示", "en": "Shows right or wrong while you type", "ko": "입력하는 동안 맞고 틀림을 바로 보여 줌" },
+      "ask": { "ja": "お問い合わせフォームにインラインバリデーションを入れて。メールアドレスを打っている間は赤で「形式が正しくありません」、正しくなったら緑のチェックを出して。", "en": "Add inline validation to the contact form: while the email address is incomplete show a red \"invalid format\" message, and switch to a green check once it is valid.", "ko": "문의 폼에 인라인 유효성 검사를 넣어 주세요. 이메일 주소가 덜 입력된 동안에는 빨간색으로 \"형식이 올바르지 않습니다\"를 보여 주고, 올바르게 입력되면 초록색 체크로 바꿔 주세요." },
       "summary": {
         "ja": "メールアドレスを打っている途中は欄が赤くなって「形式が正しくありません」と出て、正しく打ち終わった瞬間に緑のチェックとOKに変わる。",
-        "en": "While the email address is half typed the field turns red with an \"invalid format\" message; the moment it is complete it switches to a green check and \"OK\"."
+        "en": "While the email address is half typed the field turns red with an \"invalid format\" message; the moment it is complete it switches to a green check and \"OK\".",
+        "ko": "이메일 주소를 입력하는 도중에는 입력란이 빨갛게 바뀌며 \"형식이 올바르지 않습니다\"가 뜨고, 다 입력되는 순간 초록색 체크와 \"OK\"로 바뀝니다."
       },
       "spec": {
         "ja": [
@@ -457,12 +472,13 @@
     },
     {
       "no": "16", "slug": "loading-button", "category": "mouse-input",
-      "name": { "ja": "ローディングボタン", "en": "Loading button" },
-      "meaning": { "ja": "押すと読み込み中から完了に変わる", "en": "Shows loading, then done, inside the button" },
-      "ask": { "ja": "送信ボタンをローディングボタンにして。押したら0.3秒で丸く縮めて回る表示にし、終わったら緑のチェックと「完了」に変えて。", "en": "Make the submit button a loading button: on click, shrink it to a circle with a spinner over 0.3 s, then turn it green with a check and \"Done\"." },
+      "name": { "ja": "ローディングボタン", "en": "Loading button", "ko": "로딩 버튼" },
+      "meaning": { "ja": "押すと読み込み中から完了に変わる", "en": "Shows loading, then done, inside the button", "ko": "버튼 안에서 로딩 중, 완료 상태를 보여 줌" },
+      "ask": { "ja": "送信ボタンをローディングボタンにして。押したら0.3秒で丸く縮めて回る表示にし、終わったら緑のチェックと「完了」に変えて。", "en": "Make the submit button a loading button: on click, shrink it to a circle with a spinner over 0.3 s, then turn it green with a check and \"Done\".", "ko": "제출 버튼을 로딩 버튼으로 만들어 주세요. 누르면 0.3초 동안 원형으로 줄어들며 스피너가 돌고, 끝나면 초록색 체크와 \"완료\"로 바뀌게 해 주세요." },
       "summary": {
         "ja": "送信ボタンを押すと、ボタンが丸く縮んで中で読み込み表示が回り、終わると緑色のチェック付き「完了」に広がる。",
-        "en": "Clicking the submit button shrinks it to a circle with a spinner inside; when it finishes it widens into a green \"Done\" with a check."
+        "en": "Clicking the submit button shrinks it to a circle with a spinner inside; when it finishes it widens into a green \"Done\" with a check.",
+        "ko": "제출 버튼을 누르면 버튼이 원형으로 줄어들고 안에서 스피너가 돕니다. 끝나면 체크가 있는 초록색 \"완료\" 버튼으로 넓어집니다."
       },
       "spec": {
         "ja": [
@@ -488,12 +504,13 @@
     },
     {
       "no": "17", "slug": "view-transition", "category": "showcase",
-      "name": { "ja": "ビュートランジション", "en": "View transition (shared element)" },
-      "meaning": { "ja": "一覧の写真がそのまま詳細へ広がる", "en": "A list photo expands into the detail page" },
-      "ask": { "ja": "実績一覧から詳細ページへの移動をビュートランジションにして。押した写真がそのまま0.6秒で詳細の上部まで広がるように。", "en": "Use a view transition from the works list to the detail page: the clicked photo should grow into the top of the detail page over 0.6 s." },
+      "name": { "ja": "ビュートランジション", "en": "View transition (shared element)", "ko": "뷰 트랜지션" },
+      "meaning": { "ja": "一覧の写真がそのまま詳細へ広がる", "en": "A list photo expands into the detail page", "ko": "목록의 사진이 그대로 상세 페이지로 커짐" },
+      "ask": { "ja": "実績一覧から詳細ページへの移動をビュートランジションにして。押した写真がそのまま0.6秒で詳細の上部まで広がるように。", "en": "Use a view transition from the works list to the detail page: the clicked photo should grow into the top of the detail page over 0.6 s.", "ko": "작업 목록에서 상세 페이지로 넘어갈 때 뷰 트랜지션을 적용해 주세요. 누른 사진이 0.6초 동안 상세 페이지 상단까지 커지게 해 주세요." },
       "summary": {
         "ja": "一覧の写真を押すと、その写真が1枚のまま大きくなって詳細ページの上部の写真になり、周りが詳細ページに入れ替わる。戻ると元の位置へ縮む。",
-        "en": "Clicking a photo in the list grows that same photo into the image at the top of the detail page while the rest changes to the detail page; going back shrinks it into place."
+        "en": "Clicking a photo in the list grows that same photo into the image at the top of the detail page while the rest changes to the detail page; going back shrinks it into place.",
+        "ko": "목록의 사진을 누르면 그 사진이 그대로 커져 상세 페이지 상단 이미지가 되고, 나머지는 상세 페이지로 바뀝니다. 뒤로 가면 원래 자리로 줄어듭니다."
       },
       "spec": {
         "ja": [
@@ -519,12 +536,13 @@
     },
     {
       "no": "18", "slug": "lightbox", "category": "showcase",
-      "name": { "ja": "ライトボックス", "en": "Lightbox" },
-      "meaning": { "ja": "画像を押すと暗い背景の上で拡大", "en": "Opens an image large over a dimmed page" },
-      "ask": { "ja": "施工事例の写真をライトボックスで見られるようにして。押したら背景を暗くして写真を中央に拡大し、左右の矢印で前後に送れるように。", "en": "Let visitors view the case-study photos in a lightbox: on click, dim the page and enlarge the photo in the center, with arrows to go to the previous or next photo." },
+      "name": { "ja": "ライトボックス", "en": "Lightbox", "ko": "라이트박스" },
+      "meaning": { "ja": "画像を押すと暗い背景の上で拡大", "en": "Opens an image large over a dimmed page", "ko": "어두워진 화면 위에 이미지를 크게 띄움" },
+      "ask": { "ja": "施工事例の写真をライトボックスで見られるようにして。押したら背景を暗くして写真を中央に拡大し、左右の矢印で前後に送れるように。", "en": "Let visitors view the case-study photos in a lightbox: on click, dim the page and enlarge the photo in the center, with arrows to go to the previous or next photo.", "ko": "시공 사례 사진을 라이트박스로 볼 수 있게 해 주세요. 클릭하면 화면을 어둡게 하고 사진을 가운데에 크게 띄우며, 화살표로 이전 사진과 다음 사진으로 넘길 수 있게 해 주세요." },
       "summary": {
         "ja": "ギャラリーのサムネを押すと周りが暗くなり、その写真が画面の中央で大きく表示される。×を押すと元のサムネへ縮んで戻る。",
-        "en": "Clicking a thumbnail in the gallery dims the page and shows that photo large in the center; the × shrinks it back into its thumbnail."
+        "en": "Clicking a thumbnail in the gallery dims the page and shows that photo large in the center; the × shrinks it back into its thumbnail.",
+        "ko": "갤러리의 썸네일을 누르면 화면이 어두워지고 그 사진이 가운데에 크게 표시됩니다. ×를 누르면 원래 썸네일로 줄어들며 돌아갑니다."
       },
       "spec": {
         "ja": [
@@ -548,12 +566,13 @@
     },
     {
       "no": "19", "slug": "hotspots", "category": "showcase",
-      "name": { "ja": "ホットスポット", "en": "Hotspots" },
-      "meaning": { "ja": "画像の点を押すと説明が出る", "en": "Dots on an image open notes when clicked" },
-      "ask": { "ja": "商品写真にホットスポットを付けて。特長の場所に脈打つ点を置き、押したら説明の吹き出しを0.25秒で出して。", "en": "Add hotspots to the product photo: put pulsing dots on the key features and open a tooltip over 0.25 s when one is clicked." },
+      "name": { "ja": "ホットスポット", "en": "Hotspots", "ko": "핫스팟" },
+      "meaning": { "ja": "画像の点を押すと説明が出る", "en": "Dots on an image open notes when clicked", "ko": "이미지 위의 점을 누르면 설명이 열림" },
+      "ask": { "ja": "商品写真にホットスポットを付けて。特長の場所に脈打つ点を置き、押したら説明の吹き出しを0.25秒で出して。", "en": "Add hotspots to the product photo: put pulsing dots on the key features and open a tooltip over 0.25 s when one is clicked.", "ko": "상품 사진에 핫스팟을 넣어 주세요. 주요 특징 위치에 깜박이는 점을 두고, 누르면 0.25초 동안 툴팁이 열리게 해 주세요." },
       "summary": {
         "ja": "製品の絵の上で白い点が脈打ち、点を押すとその部分の説明が吹き出しで出る。別の点を押すと吹き出しが入れ替わる。",
-        "en": "White dots pulse on the product picture; clicking one opens a tooltip about that part, and clicking another dot swaps the tooltip."
+        "en": "White dots pulse on the product picture; clicking one opens a tooltip about that part, and clicking another dot swaps the tooltip.",
+        "ko": "제품 그림 위에서 흰 점들이 깜박이고, 점을 누르면 그 부분을 설명하는 툴팁이 열립니다. 다른 점을 누르면 툴팁이 바뀝니다."
       },
       "spec": {
         "ja": [
@@ -577,12 +596,13 @@
     },
     {
       "no": "20", "slug": "countdown-timer", "category": "showcase",
-      "name": { "ja": "カウントダウンタイマー", "en": "Countdown timer" },
-      "meaning": { "ja": "締切までの残り時間が減っていく", "en": "Counts down the time left to a deadline" },
-      "ask": { "ja": "キャンペーンの締切にカウントダウンタイマーを付けて。時:分:秒で、数字が変わるたびに0.3秒で下から入れ替わるように。", "en": "Add a countdown timer for the campaign deadline: hours, minutes and seconds, with each changing digit rolling in from below over 0.3 s." },
+      "name": { "ja": "カウントダウンタイマー", "en": "Countdown timer", "ko": "카운트다운 타이머" },
+      "meaning": { "ja": "締切までの残り時間が減っていく", "en": "Counts down the time left to a deadline", "ko": "마감까지 남은 시간이 줄어듦" },
+      "ask": { "ja": "キャンペーンの締切にカウントダウンタイマーを付けて。時:分:秒で、数字が変わるたびに0.3秒で下から入れ替わるように。", "en": "Add a countdown timer for the campaign deadline: hours, minutes and seconds, with each changing digit rolling in from below over 0.3 s.", "ko": "캠페인 마감에 카운트다운 타이머를 넣어 주세요. 시, 분, 초로 표시하고, 숫자가 바뀔 때마다 0.3초 동안 아래에서 굴러 들어오게 해 주세요." },
       "summary": {
         "ja": "「キャンペーン終了まで」の 時:分:秒 が1秒ごとに減り、変わった数字だけが上へ抜けて新しい数字が下から入る。",
-        "en": "The hours, minutes and seconds under \"キャンペーン終了まで\" (until the campaign ends) count down every second; only the digits that change slide up and out as new ones come in from below."
+        "en": "The hours, minutes and seconds under \"キャンペーン終了まで\" (until the campaign ends) count down every second; only the digits that change slide up and out as new ones come in from below.",
+        "ko": "\"キャンペーン終了まで\"(캠페인 종료까지) 아래의 시, 분, 초가 1초마다 줄어들고, 바뀌는 숫자만 위로 빠져나가며 새 숫자가 아래에서 들어옵니다."
       },
       "spec": {
         "ja": [
@@ -606,12 +626,13 @@
     },
     {
       "no": "21", "slug": "animated-shape-divider", "category": "showcase",
-      "name": { "ja": "シェイプディバイダー", "en": "Animated shape divider" },
-      "meaning": { "ja": "区切りの波形がゆれ続ける", "en": "A wavy section divider that keeps moving" },
-      "ask": { "ja": "ファーストビューと次のセクションの境目にシェイプディバイダーを入れて。白い波を2枚重ねて、ゆっくり逆向きに揺らし続けて。", "en": "Add an animated shape divider between the hero and the next section: two white wave layers drifting slowly in opposite directions." },
+      "name": { "ja": "シェイプディバイダー", "en": "Animated shape divider", "ko": "셰이프 디바이더" },
+      "meaning": { "ja": "区切りの波形がゆれ続ける", "en": "A wavy section divider that keeps moving", "ko": "계속 움직이는 물결 모양 섹션 구분선" },
+      "ask": { "ja": "ファーストビューと次のセクションの境目にシェイプディバイダーを入れて。白い波を2枚重ねて、ゆっくり逆向きに揺らし続けて。", "en": "Add an animated shape divider between the hero and the next section: two white wave layers drifting slowly in opposite directions.", "ko": "히어로와 다음 섹션 사이에 움직이는 셰이프 디바이더를 넣어 주세요. 흰 물결 두 겹이 서로 반대 방향으로 천천히 흘러가게 해 주세요." },
       "summary": {
         "ja": "青いセクションと白いセクションの境目にある波の形が、2枚重なってゆっくりゆれ続ける。",
-        "en": "Where a blue section meets a white one, two layered wave shapes keep swaying slowly."
+        "en": "Where a blue section meets a white one, two layered wave shapes keep swaying slowly.",
+        "ko": "파란 섹션과 흰 섹션이 만나는 곳에서 두 겹의 물결 모양이 계속 천천히 일렁입니다."
       },
       "spec": {
         "ja": [
@@ -635,12 +656,13 @@
     },
     {
       "no": "22", "slug": "like-button-animation", "category": "showcase",
-      "name": { "ja": "いいねアニメーション", "en": "Like button animation" },
-      "meaning": { "ja": "押すとハートが弾ける", "en": "The heart pops with a burst when liked" },
-      "ask": { "ja": "投稿のいいねボタンにいいねアニメーションを付けて。押したらハートを赤く塗って1.45倍まで弾ませ、周りに小さな粒を散らして、数字も1増やして。", "en": "Add a like button animation to posts: fill the heart red, bounce it up to 1.45×, scatter a few small particles and count up by one." },
+      "name": { "ja": "いいねアニメーション", "en": "Like button animation", "ko": "좋아요 버튼 애니메이션" },
+      "meaning": { "ja": "押すとハートが弾ける", "en": "The heart pops with a burst when liked", "ko": "좋아요를 누르면 하트가 톡 터지듯 튐" },
+      "ask": { "ja": "投稿のいいねボタンにいいねアニメーションを付けて。押したらハートを赤く塗って1.45倍まで弾ませ、周りに小さな粒を散らして、数字も1増やして。", "en": "Add a like button animation to posts: fill the heart red, bounce it up to 1.45×, scatter a few small particles and count up by one.", "ko": "게시물에 좋아요 버튼 애니메이션을 넣어 주세요. 하트를 빨갛게 채우고 1.45배까지 튀게 한 뒤, 작은 입자 몇 개를 흩뿌리고 숫자를 1 올려 주세요." },
       "summary": {
         "ja": "ハートを押すと赤く塗られてポンと弾み、周りに小さな粒が散って、横の数字が1つ増える。もう一度押すと元に戻る。",
-        "en": "Clicking the heart fills it red with a springy pop, small particles burst around it and the count beside it goes up by one; clicking again undoes it."
+        "en": "Clicking the heart fills it red with a springy pop, small particles burst around it and the count beside it goes up by one; clicking again undoes it.",
+        "ko": "하트를 누르면 빨갛게 채워지며 탄력 있게 톡 튀고, 주변으로 작은 입자가 터지며 옆의 숫자가 1 올라갑니다. 다시 누르면 원래대로 돌아갑니다."
       },
       "spec": {
         "ja": [
@@ -666,12 +688,13 @@
     },
     {
       "no": "23", "slug": "scroll-down-cue", "category": "showcase",
-      "name": { "ja": "スクロールダウンの合図", "en": "Scroll-down cue" },
-      "meaning": { "ja": "下へ促す矢印が動き続ける", "en": "A looping cue that invites you to scroll down" },
-      "ask": { "ja": "ファーストビューの下にスクロールダウンの合図を入れて。マウスの形の中の点が約1.5秒ごとに下へ動いて消えるのをくり返して。", "en": "Add a scroll-down cue below the hero: a dot inside a mouse outline slides down and fades about every 1.5 s, on repeat." },
+      "name": { "ja": "スクロールダウンの合図", "en": "Scroll-down cue", "ko": "스크롤 유도 표시" },
+      "meaning": { "ja": "下へ促す矢印が動き続ける", "en": "A looping cue that invites you to scroll down", "ko": "아래로 스크롤하라고 알려 주는 반복 신호" },
+      "ask": { "ja": "ファーストビューの下にスクロールダウンの合図を入れて。マウスの形の中の点が約1.5秒ごとに下へ動いて消えるのをくり返して。", "en": "Add a scroll-down cue below the hero: a dot inside a mouse outline slides down and fades about every 1.5 s, on repeat.", "ko": "히어로 아래에 스크롤 유도 표시를 넣어 주세요. 마우스 모양 안의 점이 약 1.5초마다 아래로 내려가며 사라지는 동작을 반복하게 해 주세요." },
       "summary": {
         "ja": "ファーストビューの下で、「SCROLL」の文字とマウスの形の中の点、両わきの矢印が、下へ促す動きをくり返す。",
-        "en": "Below the hero, the word \"SCROLL\", a dot inside a mouse outline and arrows on either side keep repeating a downward motion."
+        "en": "Below the hero, the word \"SCROLL\", a dot inside a mouse outline and arrows on either side keep repeating a downward motion.",
+        "ko": "히어로 아래에서 \"SCROLL\" 글자, 마우스 모양 안의 점, 양옆의 화살표가 아래로 이끄는 움직임을 계속 반복합니다."
       },
       "spec": {
         "ja": [
@@ -693,12 +716,13 @@
     },
     {
       "no": "24", "slug": "background-video", "category": "showcase",
-      "name": { "ja": "背景動画", "en": "Background video" },
-      "meaning": { "ja": "ファーストビューの背景で映像が流れる", "en": "A video plays behind the hero section" },
-      "ask": { "ja": "ファーストビューを背景動画にして。音なしでくり返し流し、文字が読めるように左側に暗いグラデーションを重ねて。", "en": "Give the hero a background video: muted and looping, with a dark gradient on the left so the headline stays readable." },
+      "name": { "ja": "背景動画", "en": "Background video", "ko": "배경 동영상" },
+      "meaning": { "ja": "ファーストビューの背景で映像が流れる", "en": "A video plays behind the hero section", "ko": "히어로 섹션 뒤에서 영상이 재생됨" },
+      "ask": { "ja": "ファーストビューを背景動画にして。音なしでくり返し流し、文字が読めるように左側に暗いグラデーションを重ねて。", "en": "Give the hero a background video: muted and looping, with a dark gradient on the left so the headline stays readable.", "ko": "히어로에 배경 동영상을 넣어 주세요. 음소거로 반복 재생하고, 제목이 잘 읽히도록 왼쪽에 어두운 그라데이션을 깔아 주세요." },
       "summary": {
         "ja": "ファーストビューの背景で雲と波が流れ続け、その上に見出しとボタンが動かずに乗っている。",
-        "en": "In the hero background, clouds and waves keep moving, while the headline and button sit still on top."
+        "en": "In the hero background, clouds and waves keep moving, while the headline and button sit still on top.",
+        "ko": "히어로 배경에서 구름과 파도가 계속 움직이고, 그 위에 제목과 버튼이 고정된 채로 놓여 있습니다."
       },
       "spec": {
         "ja": [

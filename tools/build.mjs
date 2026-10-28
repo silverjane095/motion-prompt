@@ -428,6 +428,10 @@ const DOC = {
     intro: '找到名稱後，直接告訴 AI。再加上「幾秒」「多強」「什麼在動」，結果會更接近你想要的。',
     no: '編號', name: '名稱', en: '英文名稱', meaning: '一句話說明', ask: '對 AI 的說法範例',
     more: '點編號會在圖庫打開會動的範例。單一名稱的秒數、緩動數值和參考程式碼：', all: '所有包', preview: '範例' },
+  ko: { gen: '이 파일은 tools/build.mjs 가 meta.json 으로 만든 것입니다. 고칠 때는 이 파일이 아니라 meta.json 을 편집하세요.', names: '개 이름', pack: '팩', langs: '언어',
+    intro: '이름을 찾았으면 그대로 AI에게 말하면 됩니다. "몇 초 동안", "얼마나 세게", "무엇이 움직이는지"를 덧붙이면 생각한 모습에 더 가까워집니다.',
+    no: '번호', name: '이름', en: '영어 이름', meaning: '한 줄 설명', ask: 'AI에게 부탁하는 예',
+    more: '번호를 누르면 갤러리의 움직이는 견본이 열립니다. 이름 하나의 시간·이징 값·참고 코드:', all: '전체 팩', preview: '견본' },
 };
 const LANG_NAME = { en: 'English', ja: '日本語', zh: '中文', 'zh-Hans': '简体中文', 'zh-Hant': '繁體中文', ko: '한국어', es: 'Español', fr: 'Français', de: 'Deutsch', pt: 'Português', it: 'Italiano', id: 'Bahasa Indonesia', vi: 'Tiếng Việt', th: 'ไทย', hi: 'हिन्दी', ar: 'العربية', ru: 'Русский', tr: 'Türkçe' };
 const readmeName = lang => (lang === BASE_LANG ? 'README.md' : `README.${lang}.md`);

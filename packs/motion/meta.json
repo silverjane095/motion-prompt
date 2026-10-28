@@ -1,21 +1,22 @@
 {
   "pack": "motion",
   "order": 1,
-  "title": { "ja": "モーショングラフィックスの動き", "en": "Motion graphics moves", "zh-Hant": "Motion Graphics 動態手法" },
+  "title": { "ja": "モーショングラフィックスの動き", "en": "Motion graphics moves", "zh-Hant": "Motion Graphics 動態手法", "ko": "모션그래픽 동작" },
   "categories": [
-    { "slug": "entrances-text", "ja": "登場・文字の演出", "en": "Entrances & text", "zh-Hant": "登場與文字動態" },
-    { "slug": "motion-polish", "ja": "動きの味付け", "en": "Motion polish", "zh-Hant": "動態質感" },
-    { "slug": "transitions-highlights", "ja": "切り替え・見せ場", "en": "Transitions & highlights", "zh-Hant": "轉場與吸睛效果" }
+    { "slug": "entrances-text", "ja": "登場・文字の演出", "en": "Entrances & text", "zh-Hant": "登場與文字動態", "ko": "등장·글자 연출" },
+    { "slug": "motion-polish", "ja": "動きの味付け", "en": "Motion polish", "zh-Hant": "動態質感", "ko": "움직임 다듬기" },
+    { "slug": "transitions-highlights", "ja": "切り替え・見せ場", "en": "Transitions & highlights", "zh-Hant": "轉場與吸睛效果", "ko": "전환·하이라이트" }
   ],
   "elements": [
     {
       "no": "01", "slug": "pop-in", "category": "entrances-text",
-      "name": { "ja": "ポップイン", "en": "Pop-in", "zh-Hant": "Pop-in" },
-      "meaning": { "ja": "ポンと弾んで現れる", "en": "Pops into view with a small bounce", "zh-Hant": "彈跳一下出現" },
-      "ask": { "ja": "ロゴをポップインで出して。0.4秒で、行き過ぎは少しだけ。", "en": "Bring the logo in with a pop-in, about 0.4 s, with a slight overshoot.", "zh-Hant": "請用 Pop-in 讓 Logo 出現，大約 0.4 秒，Overshoot 只要一點點。" },
+      "name": { "ja": "ポップイン", "en": "Pop-in", "zh-Hant": "Pop-in", "ko": "팝인" },
+      "meaning": { "ja": "ポンと弾んで現れる", "en": "Pops into view with a small bounce", "zh-Hant": "彈跳一下出現", "ko": "살짝 통통 튀면서 나타남" },
+      "ask": { "ja": "ロゴをポップインで出して。0.4秒で、行き過ぎは少しだけ。", "en": "Bring the logo in with a pop-in, about 0.4 s, with a slight overshoot.", "zh-Hant": "請用 Pop-in 讓 Logo 出現，大約 0.4 秒，Overshoot 只要一點點。", "ko": "로고를 팝인으로 등장시켜 주세요. 0.4초 정도로, 오버슈트는 살짝만 주세요." },
       "summary": {
         "ja": "アプリのアイコンがポンと弾んで現れ、通知バッジが遅れてポンと出る。",
-        "en": "An app icon pops in with a bounce, then a notification badge pops in a moment later."
+        "en": "An app icon pops in with a bounce, then a notification badge pops in a moment later.",
+        "ko": "앱 아이콘이 통통 튀며 나타나고, 잠시 뒤 알림 배지가 톡 하고 나타납니다."
       },
       "spec": {
         "ja": [
@@ -43,12 +44,13 @@
     },
     {
       "no": "02", "slug": "stagger", "category": "entrances-text",
-      "name": { "ja": "スタガー", "en": "Stagger", "zh-Hant": "Stagger" },
-      "meaning": { "ja": "少しずつ時間をずらして順に出す", "en": "Items appear one after another, slightly offset in time", "zh-Hant": "項目依序錯開時間逐一出現" },
-      "ask": { "ja": "5枚のカードをスタガーで出して。左から0.08秒ずつずらして。", "en": "Bring in the five cards with a stagger, 0.08 s apart, left to right.", "zh-Hant": "請用 Stagger 讓 5 張卡片出現，由左至右每張間隔 0.08 秒。" },
+      "name": { "ja": "スタガー", "en": "Stagger", "zh-Hant": "Stagger", "ko": "스태거" },
+      "meaning": { "ja": "少しずつ時間をずらして順に出す", "en": "Items appear one after another, slightly offset in time", "zh-Hant": "項目依序錯開時間逐一出現", "ko": "요소들이 시간 차를 조금씩 두고 차례로 나타남" },
+      "ask": { "ja": "5枚のカードをスタガーで出して。左から0.08秒ずつずらして。", "en": "Bring in the five cards with a stagger, 0.08 s apart, left to right.", "zh-Hant": "請用 Stagger 讓 5 張卡片出現，由左至右每張間隔 0.08 秒。", "ko": "카드 5장을 스태거로 등장시켜 주세요. 왼쪽에서 오른쪽으로 0.08초 간격이에요." },
       "summary": {
         "ja": "グラフの棒が、少しずつ時間をずらして左から順に立ち上がる。",
-        "en": "Chart bars rise one after another from the left, each slightly delayed."
+        "en": "Chart bars rise one after another from the left, each slightly delayed.",
+        "ko": "그래프 막대가 왼쪽부터 조금씩 늦게 차례로 솟아오릅니다."
       },
       "spec": {
         "ja": [
@@ -72,12 +74,13 @@
     },
     {
       "no": "03", "slug": "burst", "category": "entrances-text",
-      "name": { "ja": "バースト", "en": "Burst", "zh-Hant": "Burst" },
-      "meaning": { "ja": "登場に合わせて線や粒が弾ける", "en": "Lines and dots burst outward as something appears", "zh-Hant": "出現時線條與粒子向外迸開" },
-      "ask": { "ja": "ハートが出る瞬間に、まわりへバーストを入れて。短い線を8本、0.3秒で消す。", "en": "Add a burst around the heart the moment it appears: 8 short lines that fade in 0.3 s.", "zh-Hant": "愛心出現的瞬間，在周圍加上 Burst：8 條短線，0.3 秒內淡出消失。" },
+      "name": { "ja": "バースト", "en": "Burst", "zh-Hant": "Burst", "ko": "버스트" },
+      "meaning": { "ja": "登場に合わせて線や粒が弾ける", "en": "Lines and dots burst outward as something appears", "zh-Hant": "出現時線條與粒子向外迸開", "ko": "무언가 나타날 때 선과 점이 바깥으로 터져 나감" },
+      "ask": { "ja": "ハートが出る瞬間に、まわりへバーストを入れて。短い線を8本、0.3秒で消す。", "en": "Add a burst around the heart the moment it appears: 8 short lines that fade in 0.3 s.", "zh-Hant": "愛心出現的瞬間，在周圍加上 Burst：8 條短線，0.3 秒內淡出消失。", "ko": "하트가 나타나는 순간 주변에 버스트를 넣어 주세요. 짧은 선 8개가 0.3초 안에 사라지게 해 주세요." },
       "summary": {
         "ja": "「いいね」のハートが点くと同時に、まわりに輪・線・粒が弾ける。",
-        "en": "A like heart fills in, and a ring, lines and dots burst outward at the same moment."
+        "en": "A like heart fills in, and a ring, lines and dots burst outward at the same moment.",
+        "ko": "좋아요 하트가 채워지는 순간, 고리와 선과 점이 바깥으로 터져 나갑니다."
       },
       "spec": {
         "ja": [
@@ -105,12 +108,13 @@
     },
     {
       "no": "04", "slug": "line-draw", "category": "entrances-text",
-      "name": { "ja": "ラインドロー", "en": "Line draw", "zh-Hant": "線條動畫" },
-      "meaning": { "ja": "線が描かれるように伸びる", "en": "A line extends as if it were being drawn", "zh-Hant": "線條像被畫出來般延伸" },
-      "ask": { "ja": "グラフの折れ線を、ラインドローで左から描いて。1.2秒かけて。", "en": "Reveal the chart line with a line draw from the left, over 1.2 s.", "zh-Hant": "請用線條動畫從左邊畫出折線圖的線條，花 1.2 秒。" },
+      "name": { "ja": "ラインドロー", "en": "Line draw", "zh-Hant": "線條動畫", "ko": "라인 드로우" },
+      "meaning": { "ja": "線が描かれるように伸びる", "en": "A line extends as if it were being drawn", "zh-Hant": "線條像被畫出來般延伸", "ko": "선이 그려지듯 뻗어 나감" },
+      "ask": { "ja": "グラフの折れ線を、ラインドローで左から描いて。1.2秒かけて。", "en": "Reveal the chart line with a line draw from the left, over 1.2 s.", "zh-Hant": "請用線條動畫從左邊畫出折線圖的線條，花 1.2 秒。", "ko": "그래프의 꺾은선을 라인 드로우로 왼쪽부터 1.2초에 걸쳐 그려 주세요." },
       "summary": {
         "ja": "グラフの線が描かれるように伸び、消えるときは後ろから追いかけて消える。",
-        "en": "A chart line draws itself on, and is later erased from its starting end."
+        "en": "A chart line draws itself on, and is later erased from its starting end.",
+        "ko": "그래프 선이 스스로 그려지듯 뻗어 나가고, 사라질 때는 시작점 쪽부터 지워집니다."
       },
       "spec": {
         "ja": [
@@ -138,12 +142,13 @@
     },
     {
       "no": "05", "slug": "mask-reveal", "category": "entrances-text",
-      "name": { "ja": "マスクリビール", "en": "Mask reveal", "zh-Hant": "Mask Reveal" },
-      "meaning": { "ja": "見えない枠の中から文字がせり上がる", "en": "Text rises into view from behind an invisible edge", "zh-Hant": "文字從看不見的邊界後方升起" },
-      "ask": { "ja": "タイトルをマスクリビールで下からせり上げて。0.6秒、行ごとに少しずらして。", "en": "Bring the title in with a mask reveal from below, 0.6 s, each line slightly after the one before.", "zh-Hant": "標題請用 Mask Reveal 從下方升起，0.6 秒，每一行稍微錯開。" },
+      "name": { "ja": "マスクリビール", "en": "Mask reveal", "zh-Hant": "Mask Reveal", "ko": "마스크 리빌" },
+      "meaning": { "ja": "見えない枠の中から文字がせり上がる", "en": "Text rises into view from behind an invisible edge", "zh-Hant": "文字從看不見的邊界後方升起", "ko": "보이지 않는 경계 뒤에서 글자가 솟아오름" },
+      "ask": { "ja": "タイトルをマスクリビールで下からせり上げて。0.6秒、行ごとに少しずらして。", "en": "Bring the title in with a mask reveal from below, 0.6 s, each line slightly after the one before.", "zh-Hant": "標題請用 Mask Reveal 從下方升起，0.6 秒，每一行稍微錯開。", "ko": "제목을 마스크 리빌로 아래에서 올라오게 해 주세요. 0.6초로, 줄마다 앞줄보다 조금씩 늦게 나오게 해 주세요." },
       "summary": {
         "ja": "1本の線を境に、見えない枠の向こうから見出しがせり上がる。",
-        "en": "Headline text slides out from behind an invisible edge marked by a single line."
+        "en": "Headline text slides out from behind an invisible edge marked by a single line.",
+        "ko": "선 하나로 표시된 보이지 않는 경계 뒤에서 헤드라인 글자가 밀려 나옵니다."
       },
       "spec": {
         "ja": [
@@ -169,12 +174,13 @@
     },
     {
       "no": "06", "slug": "typewriter", "category": "entrances-text",
-      "name": { "ja": "タイプライター", "en": "Typewriter", "zh-Hant": "打字機效果" },
-      "meaning": { "ja": "1文字ずつ打たれるように出る", "en": "Text appears one character at a time, as if typed", "zh-Hant": "文字像一個字一個字打出來" },
-      "ask": { "ja": "この一文をタイプライターで出して。1文字0.05秒、末尾にカーソルを付けて。", "en": "Show this sentence with a typewriter effect, 0.05 s per character, with a cursor at the end.", "zh-Hant": "這句話請用打字機效果呈現，每個字 0.05 秒，結尾加上游標。" },
+      "name": { "ja": "タイプライター", "en": "Typewriter", "zh-Hant": "打字機效果", "ko": "타이프라이터" },
+      "meaning": { "ja": "1文字ずつ打たれるように出る", "en": "Text appears one character at a time, as if typed", "zh-Hant": "文字像一個字一個字打出來", "ko": "타자를 치듯 한 글자씩 나타남" },
+      "ask": { "ja": "この一文をタイプライターで出して。1文字0.05秒、末尾にカーソルを付けて。", "en": "Show this sentence with a typewriter effect, 0.05 s per character, with a cursor at the end.", "zh-Hant": "這句話請用打字機效果呈現，每個字 0.05 秒，結尾加上游標。", "ko": "이 문장을 타이프라이터 효과로 보여 주세요. 글자당 0.05초이고, 끝에 커서를 붙여 주세요." },
       "summary": {
         "ja": "入力欄に1文字ずつ打たれ、打ち終わると送信ボタンが点いて押される。",
-        "en": "Text is typed into an input field one character at a time, then the send button lights up and is pressed."
+        "en": "Text is typed into an input field one character at a time, then the send button lights up and is pressed.",
+        "ko": "입력창에 글자가 한 글자씩 입력되고, 입력이 끝나면 전송 버튼에 불이 들어와 눌립니다."
       },
       "spec": {
         "ja": [
@@ -202,12 +208,13 @@
     },
     {
       "no": "07", "slug": "count-up", "category": "entrances-text",
-      "name": { "ja": "カウントアップ", "en": "Count-up", "zh-Hant": "數字跳動" },
-      "meaning": { "ja": "数字が勢いよく増えていく", "en": "A number runs up quickly to its final value", "zh-Hant": "數字快速累加到最終數值" },
-      "ask": { "ja": "数字を0から1,280までカウントアップさせて。1.5秒で、最後はゆっくり止めて。", "en": "Count the figure up from 0 to 1,280 in 1.5 s, slowing down at the end.", "zh-Hant": "請用數字跳動讓數字從 0 跳到 1,280，花 1.5 秒，最後慢慢停下來。" },
+      "name": { "ja": "カウントアップ", "en": "Count-up", "zh-Hant": "數字跳動", "ko": "카운트업" },
+      "meaning": { "ja": "数字が勢いよく増えていく", "en": "A number runs up quickly to its final value", "zh-Hant": "數字快速累加到最終數值", "ko": "숫자가 최종 값까지 빠르게 올라감" },
+      "ask": { "ja": "数字を0から1,280までカウントアップさせて。1.5秒で、最後はゆっくり止めて。", "en": "Count the figure up from 0 to 1,280 in 1.5 s, slowing down at the end.", "zh-Hant": "請用數字跳動讓數字從 0 跳到 1,280，花 1.5 秒，最後慢慢停下來。", "ko": "숫자를 0에서 1,280까지 1.5초 동안 카운트업해 주세요. 끝에서는 천천히 멈추게 해 주세요." },
       "summary": {
         "ja": "数字が勢いよく増えて、最後にピタッと決まる。",
-        "en": "A number races upward and locks onto its final value."
+        "en": "A number races upward and locks onto its final value.",
+        "ko": "숫자가 빠르게 올라가다가 최종 값에 딱 멈춥니다."
       },
       "spec": {
         "ja": [
@@ -235,12 +242,13 @@
     },
     {
       "no": "08", "slug": "kinetic-typography", "category": "entrances-text",
-      "name": { "ja": "キネティックタイポグラフィ", "en": "Kinetic typography", "zh-Hant": "Kinetic Typography" },
-      "meaning": { "ja": "言葉に合わせて文字が動き回る", "en": "Words move, scale and turn in time with what is said", "zh-Hant": "文字隨著話語移動、縮放、旋轉" },
-      "ask": { "ja": "このナレーションをキネティックタイポグラフィにして。強調する語は大きく、拍に合わせて出して。", "en": "Turn this narration into kinetic typography: make the stressed words larger and land them on the beat.", "zh-Hant": "請把這段旁白做成 Kinetic Typography：強調的詞放大，並配合節拍出現。" },
+      "name": { "ja": "キネティックタイポグラフィ", "en": "Kinetic typography", "zh-Hant": "Kinetic Typography", "ko": "키네틱 타이포그래피" },
+      "meaning": { "ja": "言葉に合わせて文字が動き回る", "en": "Words move, scale and turn in time with what is said", "zh-Hant": "文字隨著話語移動、縮放、旋轉", "ko": "말하는 내용에 맞춰 단어가 움직이고 커지고 돌아감" },
+      "ask": { "ja": "このナレーションをキネティックタイポグラフィにして。強調する語は大きく、拍に合わせて出して。", "en": "Turn this narration into kinetic typography: make the stressed words larger and land them on the beat.", "zh-Hant": "請把這段旁白做成 Kinetic Typography：強調的詞放大，並配合節拍出現。", "ko": "이 내레이션을 키네틱 타이포그래피로 만들어 주세요. 강조하는 단어는 크게 하고, 박자에 맞춰 내려앉게 해 주세요." },
       "summary": {
         "ja": "言葉の意味に合わせて文字が動く（のびる／はねる／まわる／ドン！）。",
-        "en": "Words move the way they mean: one stretches, one bounces, one spins, one slams down."
+        "en": "Words move the way they mean: one stretches, one bounces, one spins, one slams down.",
+        "ko": "단어가 뜻대로 움직입니다. 하나는 늘어나고, 하나는 튀고, 하나는 돌고, 하나는 쾅 하고 떨어집니다."
       },
       "spec": {
         "ja": [
@@ -268,12 +276,13 @@
     },
     {
       "no": "09", "slug": "easing", "category": "motion-polish",
-      "name": { "ja": "イージング", "en": "Easing", "zh-Hant": "Easing" },
-      "meaning": { "ja": "緩急をつけて気持ちよく動かす", "en": "Motion speeds up and slows down instead of moving at one speed", "zh-Hant": "速度有快有慢，而不是等速移動" },
-      "ask": { "ja": "この移動にイージングをかけて。イーズアウトで、止まり際をゆっくりに。", "en": "Add easing to this move: ease-out, slowing down as it stops.", "zh-Hant": "這段移動請加上 Easing，用 Ease-out，讓停下來之前慢慢減速。" },
+      "name": { "ja": "イージング", "en": "Easing", "zh-Hant": "Easing", "ko": "이징" },
+      "meaning": { "ja": "緩急をつけて気持ちよく動かす", "en": "Motion speeds up and slows down instead of moving at one speed", "zh-Hant": "速度有快有慢，而不是等速移動", "ko": "한 속도로 움직이지 않고 빨라졌다 느려지며 움직임" },
+      "ask": { "ja": "この移動にイージングをかけて。イーズアウトで、止まり際をゆっくりに。", "en": "Add easing to this move: ease-out, slowing down as it stops.", "zh-Hant": "這段移動請加上 Easing，用 Ease-out，讓停下來之前慢慢減速。", "ko": "이 이동에 이징을 넣어 주세요. 이즈 아웃으로, 멈출 때 느려지게 해 주세요." },
       "summary": {
         "ja": "同じ距離を同じ時間で動く2つの四角。上は一定の速さ、下は緩急あり。",
-        "en": "Two squares cover the same distance in the same time: the top one at constant speed, the bottom one eased."
+        "en": "Two squares cover the same distance in the same time: the top one at constant speed, the bottom one eased.",
+        "ko": "두 사각형이 같은 거리를 같은 시간에 움직입니다. 위쪽은 일정한 속도이고, 아래쪽은 이징이 들어가 있습니다."
       },
       "spec": {
         "ja": [
@@ -301,12 +310,13 @@
     },
     {
       "no": "10", "slug": "overshoot", "category": "motion-polish",
-      "name": { "ja": "オーバーシュート", "en": "Overshoot", "zh-Hant": "Overshoot" },
-      "meaning": { "ja": "行き過ぎてから戻って止まる", "en": "Goes a little past the target, then settles back", "zh-Hant": "衝過目標一點，再回彈停住" },
-      "ask": { "ja": "メーターの針をオーバーシュートさせて。目標を1割ほど越えてから戻して。", "en": "Give the gauge needle an overshoot: about 10% past the target, then back.", "zh-Hant": "請讓儀表的指針加上 Overshoot，衝過目標約 10% 之後再回到目標。" },
+      "name": { "ja": "オーバーシュート", "en": "Overshoot", "zh-Hant": "Overshoot", "ko": "오버슈트" },
+      "meaning": { "ja": "行き過ぎてから戻って止まる", "en": "Goes a little past the target, then settles back", "zh-Hant": "衝過目標一點，再回彈停住", "ko": "목표를 조금 지나쳤다가 되돌아와 자리 잡음" },
+      "ask": { "ja": "メーターの針をオーバーシュートさせて。目標を1割ほど越えてから戻して。", "en": "Give the gauge needle an overshoot: about 10% past the target, then back.", "zh-Hant": "請讓儀表的指針加上 Overshoot，衝過目標約 10% 之後再回到目標。", "ko": "게이지 바늘에 오버슈트를 주세요. 목표보다 10% 정도 지나쳤다가 돌아오게 해 주세요." },
       "summary": {
         "ja": "メーターの針が、目標を行き過ぎてから戻って止まる。",
-        "en": "A gauge needle swings past its target, comes back and settles."
+        "en": "A gauge needle swings past its target, comes back and settles.",
+        "ko": "게이지 바늘이 목표를 지나쳤다가 되돌아와 자리를 잡습니다."
       },
       "spec": {
         "ja": [
@@ -332,12 +342,13 @@
     },
     {
       "no": "11", "slug": "squash-and-stretch", "category": "motion-polish",
-      "name": { "ja": "スクワッシュ＆ストレッチ", "en": "Squash & stretch", "zh-Hant": "擠壓與伸展" },
-      "meaning": { "ja": "つぶれて伸びて弾力を出す", "en": "Squashes and stretches so that it feels elastic", "zh-Hant": "物體擠壓再拉長，帶出彈性感" },
-      "ask": { "ja": "ボールの着地にスクワッシュ＆ストレッチを入れて。つぶれは弱めに。", "en": "Add squash and stretch when the ball lands; keep the squash subtle.", "zh-Hant": "球落地時請加上擠壓與伸展，擠壓的幅度要小一點。" },
+      "name": { "ja": "スクワッシュ＆ストレッチ", "en": "Squash & stretch", "zh-Hant": "擠壓與伸展", "ko": "스쿼시 앤 스트레치" },
+      "meaning": { "ja": "つぶれて伸びて弾力を出す", "en": "Squashes and stretches so that it feels elastic", "zh-Hant": "物體擠壓再拉長，帶出彈性感", "ko": "찌그러지고 늘어나며 탄력 있게 느껴지게 함" },
+      "ask": { "ja": "ボールの着地にスクワッシュ＆ストレッチを入れて。つぶれは弱めに。", "en": "Add squash and stretch when the ball lands; keep the squash subtle.", "zh-Hant": "球落地時請加上擠壓與伸展，擠壓的幅度要小一點。", "ko": "공이 착지할 때 스쿼시 앤 스트레치를 넣어 주세요. 찌그러짐은 약하게 해 주세요." },
       "summary": {
         "ja": "弾むキャラクターが、着地でつぶれ、飛ぶときに伸びる。",
-        "en": "A bouncing character squashes on landing and stretches as it takes off."
+        "en": "A bouncing character squashes on landing and stretches as it takes off.",
+        "ko": "통통 튀는 캐릭터가 착지할 때 찌그러지고, 뛰어오를 때 늘어납니다."
       },
       "spec": {
         "ja": [
@@ -363,12 +374,13 @@
     },
     {
       "no": "12", "slug": "shape-morph", "category": "motion-polish",
-      "name": { "ja": "モーフィング", "en": "Shape morph", "zh-Hant": "形狀變形" },
-      "meaning": { "ja": "形が別の形に変わる", "en": "One shape turns smoothly into another", "zh-Hant": "一個形狀平滑變成另一個形狀" },
-      "ask": { "ja": "丸を星にモーフィングさせて。0.8秒で、途中で色も青から黄へ。", "en": "Morph the circle into a star in 0.8 s, changing the color from blue to yellow on the way.", "zh-Hant": "請用形狀變形把圓形變成星形，0.8 秒，過程中顏色也從藍色漸變成黃色。" },
+      "name": { "ja": "モーフィング", "en": "Shape morph", "zh-Hant": "形狀變形", "ko": "모핑" },
+      "meaning": { "ja": "形が別の形に変わる", "en": "One shape turns smoothly into another", "zh-Hant": "一個形狀平滑變成另一個形狀", "ko": "한 도형이 다른 도형으로 부드럽게 바뀜" },
+      "ask": { "ja": "丸を星にモーフィングさせて。0.8秒で、途中で色も青から黄へ。", "en": "Morph the circle into a star in 0.8 s, changing the color from blue to yellow on the way.", "zh-Hant": "請用形狀變形把圓形變成星形，0.8 秒，過程中顏色也從藍色漸變成黃色。", "ko": "원을 0.8초 동안 별로 모핑해 주세요. 도중에 색도 파란색에서 노란색으로 바꿔 주세요." },
       "summary": {
         "ja": "丸 → 四角 → 星 → ハートと、形と色がなめらかに変わる。",
-        "en": "A shape changes smoothly from circle to square to star to heart, with its colour."
+        "en": "A shape changes smoothly from circle to square to star to heart, with its colour.",
+        "ko": "도형이 원에서 사각형, 별, 하트로 색과 함께 부드럽게 바뀝니다."
       },
       "spec": {
         "ja": [
@@ -396,12 +408,13 @@
     },
     {
       "no": "13", "slug": "liquid-motion", "category": "motion-polish",
-      "name": { "ja": "リキッドモーション", "en": "Liquid motion", "zh-Hant": "液態動畫" },
-      "meaning": { "ja": "液体のようにぬるっと動く", "en": "Shapes move and merge like liquid", "zh-Hant": "像液體一樣黏滑地流動、融合" },
-      "ask": { "ja": "ロゴの登場をリキッドモーションにして。しずくが集まってロゴの形になるように。", "en": "Make the logo entrance a liquid motion: drops gather and form the shape.", "zh-Hant": "Logo 的登場請用液態動畫，像水滴聚在一起組成 Logo 的形狀。" },
+      "name": { "ja": "リキッドモーション", "en": "Liquid motion", "zh-Hant": "液態動畫", "ko": "리퀴드 모션" },
+      "meaning": { "ja": "液体のようにぬるっと動く", "en": "Shapes move and merge like liquid", "zh-Hant": "像液體一樣黏滑地流動、融合", "ko": "도형이 액체처럼 움직이고 합쳐짐" },
+      "ask": { "ja": "ロゴの登場をリキッドモーションにして。しずくが集まってロゴの形になるように。", "en": "Make the logo entrance a liquid motion: drops gather and form the shape.", "zh-Hant": "Logo 的登場請用液態動畫，像水滴聚在一起組成 Logo 的形狀。", "ko": "로고 등장을 리퀴드 모션으로 해 주세요. 물방울이 모여 로고 모양이 되게 해 주세요." },
       "summary": {
         "ja": "しずくが伸びて、ちぎれて、ぬるっと1つにまとまる。",
-        "en": "A blob stretches out, breaks into drops and merges back into one."
+        "en": "A blob stretches out, breaks into drops and merges back into one.",
+        "ko": "덩어리가 늘어나다가 물방울로 갈라지고, 다시 하나로 합쳐집니다."
       },
       "spec": {
         "ja": [
@@ -427,12 +440,13 @@
     },
     {
       "no": "14", "slug": "motion-trail", "category": "motion-polish",
-      "name": { "ja": "モーショントレイル", "en": "Motion trail", "zh-Hant": "動態殘影" },
-      "meaning": { "ja": "動いた跡に残像が尾を引く", "en": "A fading trail follows a moving object", "zh-Hant": "移動的物體後方拖著漸淡的殘影" },
-      "ask": { "ja": "飛んでいく丸にモーショントレイルを付けて。残像は5個、後ろほど薄く。", "en": "Add a motion trail to the flying circle: five copies that fade out behind it.", "zh-Hant": "飛行中的圓形請加上動態殘影，5 個殘影，越後面越淡。" },
+      "name": { "ja": "モーショントレイル", "en": "Motion trail", "zh-Hant": "動態殘影", "ko": "모션 트레일" },
+      "meaning": { "ja": "動いた跡に残像が尾を引く", "en": "A fading trail follows a moving object", "zh-Hant": "移動的物體後方拖著漸淡的殘影", "ko": "움직이는 물체 뒤로 점점 옅어지는 잔상이 따라옴" },
+      "ask": { "ja": "飛んでいく丸にモーショントレイルを付けて。残像は5個、後ろほど薄く。", "en": "Add a motion trail to the flying circle: five copies that fade out behind it.", "zh-Hant": "飛行中的圓形請加上動態殘影，5 個殘影，越後面越淡。", "ko": "날아가는 원에 모션 트레일을 붙여 주세요. 잔상은 5개이고, 뒤로 갈수록 옅어지게 해 주세요." },
       "summary": {
         "ja": "8の字に動く丸の跡に、残像が尾を引く。",
-        "en": "A ball moving in a figure eight leaves a fading trail of copies behind it."
+        "en": "A ball moving in a figure eight leaves a fading trail of copies behind it.",
+        "ko": "8자로 움직이는 공 뒤로 점점 옅어지는 잔상이 꼬리처럼 따라옵니다."
       },
       "spec": {
         "ja": [
@@ -458,12 +472,13 @@
     },
     {
       "no": "15", "slug": "particles", "category": "motion-polish",
-      "name": { "ja": "パーティクル", "en": "Particles", "zh-Hant": "粒子特效" },
-      "meaning": { "ja": "粒が飛び散る", "en": "Many small pieces fly out and scatter", "zh-Hant": "許多小粒子向外飛散" },
-      "ask": { "ja": "達成の瞬間に、下からパーティクルを噴き上げて。4色で、1.5秒で落ちきるように。", "en": "At the moment of success, shoot particles up from the bottom: four colors, all fallen within 1.5 s.", "zh-Hant": "達成的瞬間，請用粒子特效從下方往上噴出，4 種顏色，1.5 秒內全部落完。" },
+      "name": { "ja": "パーティクル", "en": "Particles", "zh-Hant": "粒子特效", "ko": "파티클" },
+      "meaning": { "ja": "粒が飛び散る", "en": "Many small pieces fly out and scatter", "zh-Hant": "許多小粒子向外飛散", "ko": "작은 조각이 많이 튀어나와 흩어짐" },
+      "ask": { "ja": "達成の瞬間に、下からパーティクルを噴き上げて。4色で、1.5秒で落ちきるように。", "en": "At the moment of success, shoot particles up from the bottom: four colors, all fallen within 1.5 s.", "zh-Hant": "達成的瞬間，請用粒子特效從下方往上噴出，4 種顏色，1.5 秒內全部落完。", "ko": "성공하는 순간 아래에서 파티클을 쏘아 올려 주세요. 4가지 색으로, 1.5초 안에 모두 떨어지게 해 주세요." },
       "summary": {
         "ja": "粒が下の口から次々と噴き出して、飛び散って落ちる。",
-        "en": "Particles keep shooting up from an emitter, spread out and fall."
+        "en": "Particles keep shooting up from an emitter, spread out and fall.",
+        "ko": "파티클이 발생 지점에서 계속 솟아올라 퍼진 뒤 떨어집니다."
       },
       "spec": {
         "ja": [
@@ -489,12 +504,13 @@
     },
     {
       "no": "16", "slug": "parallax", "category": "motion-polish",
-      "name": { "ja": "パララックス", "en": "Parallax", "zh-Hant": "Parallax" },
-      "meaning": { "ja": "手前と奥をずらして動かし奥行きを出す", "en": "Near and far layers move at different speeds to show depth", "zh-Hant": "近景與遠景速度不同，營造景深" },
-      "ask": { "ja": "この風景を3層に分けて、パララックスで横に流して。手前ほど速く。", "en": "Split this landscape into three layers and scroll them with parallax, nearer layers faster.", "zh-Hant": "請把這張風景分成 3 層，以 Parallax 橫向平移，越近的圖層移動越快。" },
+      "name": { "ja": "パララックス", "en": "Parallax", "zh-Hant": "Parallax", "ko": "패럴랙스" },
+      "meaning": { "ja": "手前と奥をずらして動かし奥行きを出す", "en": "Near and far layers move at different speeds to show depth", "zh-Hant": "近景與遠景速度不同，營造景深", "ko": "가까운 층과 먼 층을 다른 속도로 움직여 깊이감을 줌" },
+      "ask": { "ja": "この風景を3層に分けて、パララックスで横に流して。手前ほど速く。", "en": "Split this landscape into three layers and scroll them with parallax, nearer layers faster.", "zh-Hant": "請把這張風景分成 3 層，以 Parallax 橫向平移，越近的圖層移動越快。", "ko": "이 풍경을 3개 층으로 나눠 패럴랙스로 스크롤해 주세요. 가까운 층일수록 빠르게 해 주세요." },
       "summary": {
         "ja": "横に動く景色。手前ほど大きく、奥ほど小さく動いて、奥行きが出る。",
-        "en": "A landscape pans sideways; near layers move more and far layers move less, creating depth."
+        "en": "A landscape pans sideways; near layers move more and far layers move less, creating depth.",
+        "ko": "풍경이 옆으로 흘러갑니다. 가까운 층은 많이, 먼 층은 적게 움직여 깊이감이 생깁니다."
       },
       "spec": {
         "ja": [
@@ -518,12 +534,13 @@
     },
     {
       "no": "17", "slug": "mask-transition", "category": "transitions-highlights",
-      "name": { "ja": "マスクトランジション", "en": "Mask transition", "zh-Hant": "遮罩轉場" },
-      "meaning": { "ja": "形の中から次の画面が現れる", "en": "The next scene appears inside a growing shape", "zh-Hant": "下一個畫面從擴大的形狀中現出" },
-      "ask": { "ja": "次の場面へはマスクトランジションで。中央の丸が0.7秒で広がって切り替わるように。", "en": "Go to the next scene with a mask transition: a circle grows from the center in 0.7 s.", "zh-Hant": "切換到下一個場景請用遮罩轉場，中央的圓形在 0.7 秒內擴大並完成切換。" },
+      "name": { "ja": "マスクトランジション", "en": "Mask transition", "zh-Hant": "遮罩轉場", "ko": "마스크 트랜지션" },
+      "meaning": { "ja": "形の中から次の画面が現れる", "en": "The next scene appears inside a growing shape", "zh-Hant": "下一個畫面從擴大的形狀中現出", "ko": "커지는 도형 안에서 다음 장면이 나타남" },
+      "ask": { "ja": "次の場面へはマスクトランジションで。中央の丸が0.7秒で広がって切り替わるように。", "en": "Go to the next scene with a mask transition: a circle grows from the center in 0.7 s.", "zh-Hant": "切換到下一個場景請用遮罩轉場，中央的圓形在 0.7 秒內擴大並完成切換。", "ko": "다음 장면으로는 마스크 트랜지션으로 넘어가 주세요. 가운데에서 원이 0.7초 동안 커지게 해 주세요." },
       "summary": {
         "ja": "丸や星の形の「窓」が広がり、その中に次の画面が見える。",
-        "en": "A circle- or star-shaped window grows, showing the next scene inside it."
+        "en": "A circle- or star-shaped window grows, showing the next scene inside it.",
+        "ko": "원이나 별 모양의 창이 커지면서 그 안에 다음 장면이 보입니다."
       },
       "spec": {
         "ja": [
@@ -549,12 +566,13 @@
     },
     {
       "no": "18", "slug": "shape-transition", "category": "transitions-highlights",
-      "name": { "ja": "シェイプトランジション", "en": "Shape transition", "zh-Hant": "形狀轉場" },
-      "meaning": { "ja": "図形が画面を覆って切り替わる", "en": "Shapes cover the screen and uncover the next scene", "zh-Hant": "形狀覆蓋畫面後露出下一個場景" },
-      "ask": { "ja": "場面の切り替えはシェイプトランジションで。4色の斜めの帯が左から覆うように。", "en": "Change scenes with a shape transition: four diagonal color bands sweep in from the left.", "zh-Hant": "場景切換請用形狀轉場，4 種顏色的斜向色帶從左邊掃過來覆蓋畫面。" },
+      "name": { "ja": "シェイプトランジション", "en": "Shape transition", "zh-Hant": "形狀轉場", "ko": "셰이프 트랜지션" },
+      "meaning": { "ja": "図形が画面を覆って切り替わる", "en": "Shapes cover the screen and uncover the next scene", "zh-Hant": "形狀覆蓋畫面後露出下一個場景", "ko": "도형이 화면을 덮었다가 걷히며 다음 장면이 드러남" },
+      "ask": { "ja": "場面の切り替えはシェイプトランジションで。4色の斜めの帯が左から覆うように。", "en": "Change scenes with a shape transition: four diagonal color bands sweep in from the left.", "zh-Hant": "場景切換請用形狀轉場，4 種顏色的斜向色帶從左邊掃過來覆蓋畫面。", "ko": "장면 전환은 셰이프 트랜지션으로 해 주세요. 4가지 색의 사선 띠가 왼쪽에서 휩쓸며 들어오게 해 주세요." },
       "summary": {
         "ja": "色のついた帯が画面を覆い隠し、抜けると次の画面になっている。",
-        "en": "Coloured bands sweep across and cover the frame; when they leave, the next scene is there."
+        "en": "Coloured bands sweep across and cover the frame; when they leave, the next scene is there.",
+        "ko": "색 띠가 화면을 가로질러 덮고, 띠가 빠져나가면 다음 장면이 나와 있습니다."
       },
       "spec": {
         "ja": [
@@ -580,12 +598,13 @@
     },
     {
       "no": "19", "slug": "liquid-transition", "category": "transitions-highlights",
-      "name": { "ja": "リキッドトランジション", "en": "Liquid transition", "zh-Hant": "液態轉場" },
-      "meaning": { "ja": "液体が流れ込んで切り替わる", "en": "Liquid flows in and replaces the scene", "zh-Hant": "液體流入並取代原本的畫面" },
-      "ask": { "ja": "ここはリキッドトランジションで。上から青いインクが垂れて画面を満たすように。", "en": "Use a liquid transition here: blue ink drips down from the top and fills the frame.", "zh-Hant": "這裡請用液態轉場，藍色墨水從上方滴下來填滿畫面。" },
+      "name": { "ja": "リキッドトランジション", "en": "Liquid transition", "zh-Hant": "液態轉場", "ko": "리퀴드 트랜지션" },
+      "meaning": { "ja": "液体が流れ込んで切り替わる", "en": "Liquid flows in and replaces the scene", "zh-Hant": "液體流入並取代原本的畫面", "ko": "액체가 흘러 들어와 장면을 바꿈" },
+      "ask": { "ja": "ここはリキッドトランジションで。上から青いインクが垂れて画面を満たすように。", "en": "Use a liquid transition here: blue ink drips down from the top and fills the frame.", "zh-Hant": "這裡請用液態轉場，藍色墨水從上方滴下來填滿畫面。", "ko": "여기는 리퀴드 트랜지션을 써 주세요. 파란 잉크가 위에서 흘러내려 화면을 채우게 해 주세요." },
       "summary": {
         "ja": "ペンキのような液体が上から垂れて流れ込み、次の画面になる。",
-        "en": "Paint-like liquid drips down from the top and fills the frame, becoming the next scene."
+        "en": "Paint-like liquid drips down from the top and fills the frame, becoming the next scene.",
+        "ko": "물감 같은 액체가 위에서 흘러내려 화면을 채우고, 그대로 다음 장면이 됩니다."
       },
       "spec": {
         "ja": [
@@ -611,12 +630,13 @@
     },
     {
       "no": "20", "slug": "zoom-through", "category": "transitions-highlights",
-      "name": { "ja": "ズームスルー", "en": "Zoom through", "zh-Hant": "Zoom Through 穿越轉場" },
-      "meaning": { "ja": "物の中へ突き抜けて次へ", "en": "Zooms into an object and passes through it into the next scene", "zh-Hant": "鑽進物體裡穿過去，進入下一個場景" },
-      "ask": { "ja": "ロゴの「O」の穴へズームスルーして、次の場面へ。0.6秒で、加速しながら。", "en": "Zoom through the hole of the \"O\" in the logo into the next scene, 0.6 s, accelerating.", "zh-Hant": "請用 Zoom Through 穿越轉場鑽進 Logo「O」的洞，進入下一個場景，0.6 秒，逐漸加速。" },
+      "name": { "ja": "ズームスルー", "en": "Zoom through", "zh-Hant": "Zoom Through 穿越轉場", "ko": "줌 스루" },
+      "meaning": { "ja": "物の中へ突き抜けて次へ", "en": "Zooms into an object and passes through it into the next scene", "zh-Hant": "鑽進物體裡穿過去，進入下一個場景", "ko": "물체 안으로 줌인해 뚫고 지나가 다음 장면으로 넘어감" },
+      "ask": { "ja": "ロゴの「O」の穴へズームスルーして、次の場面へ。0.6秒で、加速しながら。", "en": "Zoom through the hole of the \"O\" in the logo into the next scene, 0.6 s, accelerating.", "zh-Hant": "請用 Zoom Through 穿越轉場鑽進 Logo「O」的洞，進入下一個場景，0.6 秒，逐漸加速。", "ko": "로고의 \"O\" 구멍으로 줌 스루해서 다음 장면으로 넘어가 주세요. 0.6초 동안 가속하면서요." },
       "summary": {
         "ja": "文字の「O」の穴へ突っ込んで、その先の画面へ抜ける。",
-        "en": "The camera pushes into the hole of a letter O and comes out in the next scene."
+        "en": "The camera pushes into the hole of a letter O and comes out in the next scene.",
+        "ko": "카메라가 글자 O의 구멍으로 파고들어 다음 장면으로 빠져나옵니다."
       },
       "spec": {
         "ja": [
@@ -642,12 +662,13 @@
     },
     {
       "no": "21", "slug": "flip", "category": "transitions-highlights",
-      "name": { "ja": "フリップ", "en": "Flip", "zh-Hant": "卡片翻轉" },
-      "meaning": { "ja": "カードのように裏返る", "en": "Turns over like a card to show the other side", "zh-Hant": "像卡片一樣翻到背面" },
-      "ask": { "ja": "料金カードをフリップで裏返して、裏に詳細を出して。0.5秒で。", "en": "Flip the pricing card to show the details on its back, in 0.5 s.", "zh-Hant": "請用卡片翻轉讓價格卡片翻到背面，並在背面顯示詳細內容，0.5 秒。" },
+      "name": { "ja": "フリップ", "en": "Flip", "zh-Hant": "卡片翻轉", "ko": "플립" },
+      "meaning": { "ja": "カードのように裏返る", "en": "Turns over like a card to show the other side", "zh-Hant": "像卡片一樣翻到背面", "ko": "카드처럼 뒤집혀 반대 면을 보여 줌" },
+      "ask": { "ja": "料金カードをフリップで裏返して、裏に詳細を出して。0.5秒で。", "en": "Flip the pricing card to show the details on its back, in 0.5 s.", "zh-Hant": "請用卡片翻轉讓價格卡片翻到背面，並在背面顯示詳細內容，0.5 秒。", "ko": "요금 카드를 0.5초 동안 플립해서 뒷면에 상세 내용을 보여 주세요." },
       "summary": {
         "ja": "カードが縦の軸で回って裏返り、裏の面が出る。",
-        "en": "A card turns over around its vertical axis and shows its other side."
+        "en": "A card turns over around its vertical axis and shows its other side.",
+        "ko": "카드가 세로축을 중심으로 뒤집혀 반대쪽 면을 보여 줍니다."
       },
       "spec": {
         "ja": [
@@ -673,12 +694,13 @@
     },
     {
       "no": "22", "slug": "light-sweep", "category": "transitions-highlights",
-      "name": { "ja": "ライトスイープ", "en": "Light sweep", "zh-Hant": "掃光" },
-      "meaning": { "ja": "光が表面を横切る", "en": "A band of light crosses a surface", "zh-Hant": "一道光掃過表面" },
-      "ask": { "ja": "ロゴが止まったあとに、ライトスイープを1回。左上から右下へ、弱めに。", "en": "After the logo settles, add one light sweep from top-left to bottom-right, subtle.", "zh-Hant": "Logo 停住之後，請加一次掃光，由左上掃到右下，亮度淡一點。" },
+      "name": { "ja": "ライトスイープ", "en": "Light sweep", "zh-Hant": "掃光", "ko": "라이트 스윕" },
+      "meaning": { "ja": "光が表面を横切る", "en": "A band of light crosses a surface", "zh-Hant": "一道光掃過表面", "ko": "빛의 띠가 표면을 가로지름" },
+      "ask": { "ja": "ロゴが止まったあとに、ライトスイープを1回。左上から右下へ、弱めに。", "en": "After the logo settles, add one light sweep from top-left to bottom-right, subtle.", "zh-Hant": "Logo 停住之後，請加一次掃光，由左上掃到右下，亮度淡一點。", "ko": "로고가 자리 잡은 뒤 라이트 스윕을 한 번 넣어 주세요. 왼쪽 위에서 오른쪽 아래로, 은은하게 해 주세요." },
       "summary": {
         "ja": "ロゴの表面を、光の帯が斜めに横切る。",
-        "en": "A band of light crosses the surface of a logo badge at an angle."
+        "en": "A band of light crosses the surface of a logo badge at an angle.",
+        "ko": "빛의 띠가 로고 배지 표면을 비스듬히 가로지릅니다."
       },
       "spec": {
         "ja": [
@@ -704,12 +726,13 @@
     },
     {
       "no": "23", "slug": "glitch", "category": "transitions-highlights",
-      "name": { "ja": "グリッチ", "en": "Glitch", "zh-Hant": "Glitch" },
-      "meaning": { "ja": "映像がバグったように乱れる", "en": "The picture breaks up as if it were malfunctioning", "zh-Hant": "畫面像故障一樣失真跳動" },
-      "ask": { "ja": "タイトルに一瞬だけグリッチを入れて。0.3秒、色ずれは弱めで、点滅はさせないで。", "en": "Add a brief glitch to the title: 0.3 s, a mild color split, no flashing.", "zh-Hant": "標題請加上短暫的 Glitch，0.3 秒，RGB 分離輕微，不要閃爍。" },
+      "name": { "ja": "グリッチ", "en": "Glitch", "zh-Hant": "Glitch", "ko": "글리치" },
+      "meaning": { "ja": "映像がバグったように乱れる", "en": "The picture breaks up as if it were malfunctioning", "zh-Hant": "畫面像故障一樣失真跳動", "ko": "고장 난 것처럼 화면이 깨지고 흐트러짐" },
+      "ask": { "ja": "タイトルに一瞬だけグリッチを入れて。0.3秒、色ずれは弱めで、点滅はさせないで。", "en": "Add a brief glitch to the title: 0.3 s, a mild color split, no flashing.", "zh-Hant": "標題請加上短暫的 Glitch，0.3 秒，RGB 分離輕微，不要閃爍。", "ko": "제목에 짧은 글리치를 넣어 주세요. 0.3초로, 색 분리는 약하게 하고 깜빡임은 없게 해 주세요." },
       "summary": {
         "ja": "文字が横にずれ、色がずれ、帯が走る。明るさの点滅はさせない。",
-        "en": "Text slices shift sideways, colours split and small bars appear, with no brightness flashing."
+        "en": "Text slices shift sideways, colours split and small bars appear, with no brightness flashing.",
+        "ko": "글자 조각이 옆으로 밀리고, 색이 분리되고, 작은 막대가 나타납니다. 밝기 깜빡임은 없습니다."
       },
       "spec": {
         "ja": [
@@ -737,12 +760,13 @@
     },
     {
       "no": "24", "slug": "impact-shake", "category": "transitions-highlights",
-      "name": { "ja": "インパクトシェイク", "en": "Impact shake", "zh-Hant": "畫面震動" },
-      "meaning": { "ja": "着地の衝撃で画面が揺れる", "en": "The whole frame shakes when something lands", "zh-Hant": "落地的衝擊讓整個畫面震動" },
-      "ask": { "ja": "見出しがドンと落ちた瞬間に、インパクトシェイクを入れて。0.4秒で収まる程度に。", "en": "Add an impact shake when the headline lands; it should settle within 0.4 s.", "zh-Hant": "標題砰地落下的瞬間，請加上畫面震動，0.4 秒內要平息。" },
+      "name": { "ja": "インパクトシェイク", "en": "Impact shake", "zh-Hant": "畫面震動", "ko": "임팩트 셰이크" },
+      "meaning": { "ja": "着地の衝撃で画面が揺れる", "en": "The whole frame shakes when something lands", "zh-Hant": "落地的衝擊讓整個畫面震動", "ko": "무언가 떨어져 닿을 때 화면 전체가 흔들림" },
+      "ask": { "ja": "見出しがドンと落ちた瞬間に、インパクトシェイクを入れて。0.4秒で収まる程度に。", "en": "Add an impact shake when the headline lands; it should settle within 0.4 s.", "zh-Hant": "標題砰地落下的瞬間，請加上畫面震動，0.4 秒內要平息。", "ko": "헤드라인이 떨어져 닿을 때 임팩트 셰이크를 넣어 주세요. 0.4초 안에 잦아들게 해 주세요." },
       "summary": {
         "ja": "重い見出しの板がドンと落ち、その衝撃で画面ごと揺れる。",
-        "en": "A heavy headline slab drops with a thud and the whole frame shakes from the impact."
+        "en": "A heavy headline slab drops with a thud and the whole frame shakes from the impact.",
+        "ko": "무거운 헤드라인 판이 쿵 하고 떨어지고, 그 충격으로 화면 전체가 흔들립니다."
       },
       "spec": {
         "ja": [
